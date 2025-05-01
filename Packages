@@ -122,23 +122,6 @@ Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
 Name: SafariX(rootless)
 
-Package: com.yan.anitime.666
-Version: 9.9999
-Architecture: iphoneos-arm64
-Maintainer: yan
-Installed-Size: 1488
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
-Filename: ./debs/anitime动态锁屏风格.deb
-Size: 392356
-MD5sum: 5b49a3ce3654b450f3807c37f1557761
-SHA1: 5de0dc0c6e4253a4acd1424e78cc71716343b389
-SHA256: 28b9b094bf717b2f95404b68e5ff14032b561ec427d6b4950796cda21481bcfc
-Section: Tweaks
-Description: Animated anime characters as your clock digits.
-Author: yan
-Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
-Name: AniTime
-
 Package: jp.ps.zetsu
 Version: 1.5
 Architecture: iphoneos-arm64
