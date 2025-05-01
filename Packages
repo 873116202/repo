@@ -147,15 +147,15 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 3168
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/iphoneos-arm64/floating-view-Rootless.deb
-Size: 605784
-MD5sum: 5b2814dba7e64a0ad9d6bca1ca5e68cc
-SHA1: 1fd4c34b68b3c35303b8c437b2fb1f2bf2f5496d
-SHA256: dd5d21162fe621914c89e6da22fc9279a6946879a598a0b475706c604535c0ce
+Filename: ./debs/iphoneos-arm64/floating-view分屏-Rootless.deb
+Size: 606164
+MD5sum: a259fddee4860821347d7489352c0b68
+SHA1: cdcef3f5db72e462052b540df2559edb0a6e15d6
+SHA256: cd23bb829c1aefc1e3829faf308d6ae973ab812fb2ff4648378ab16d3867329d
 Section: iphoneos-arm64
 Description: 一款你最爱的分屏，不必太复杂，一切从简即可。
 Author: be-huge
-Name: floatingView-Rootless
+Name: floatingView分屏-Rootless
 
 Package: com.dao.safarix
 Version: 1.3.0
