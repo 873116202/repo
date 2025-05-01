@@ -1,7 +1,12 @@
-Origin: Ps666666's Repo
-Label: Ps6666666's Repo
-Description: This is a self-use software source
+Origin: Ps6666666
+Label: Ps6666666
 Suite: stable
 Version: 1.0
+Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
+Description: Your custom jailbreak repo
+MD5Sum:
+  $(md5sum Packages | cut -d ' ' -f 1) $(stat -f %z Packages) Packages
+  $(md5sum Packages.bz2 | cut -d ' ' -f 1) $(stat -f %z Packages.bz2) Packages.bz2
+
