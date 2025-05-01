@@ -6,7 +6,3 @@ Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Your custom jailbreak repo
-MD5Sum:
-  $(md5sum Packages | cut -d ' ' -f 1) $(stat -f %z Packages) Packages
-  $(md5sum Packages.bz2 | cut -d ' ' -f 1) $(stat -f %z Packages.bz2) Packages.bz2
-
