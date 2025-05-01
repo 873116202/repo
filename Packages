@@ -1,0 +1,17 @@
+Package: com.nan.dpkg-fill
+Version: 0.3.8
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: firmware (>= 11.0), sed, coreutils, lsof
+Filename: ./debs/com.nan.dpkg-fill_0.3.8_iphoneos-arm.deb
+Size: 2036
+MD5sum: a316e77d6e605186c7ce1a2d9b0a58c9
+SHA1: 19b88a61a1b9f45059d6d4f0a08c783211b5d76b
+SHA256: 7a42db56b387e1143cad006f4ed6bba4bcf3133e37719150294c84881c5cac2c
+Section: Terminal_Support
+Description: 修补因缺少维护者和描述的报错信息
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: dpkg-fill
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.dpkg-fill/js.json
+
