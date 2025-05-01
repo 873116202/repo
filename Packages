@@ -122,6 +122,40 @@ Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
 Name: SafariX(rootless)
 
+Package: com.hk.rootless.janwechat
+Version: 1.1.5-1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: ./debs/Jan WeChat微信助手rootless版.deb
+Size: 599704
+MD5sum: d8ebc9a460006c061221ce9ba36ebd75
+SHA1: 39c44a0c80d95c70b86b529ca383f92480d616e6
+SHA256: 20105ede10c914965b3195801c542c913b1408c18de61ac26524109b2dc3bf15
+Section: 微信插件
+Description: Jan WeChat微信助手rootless版，插件还是老版本，作者都不见了，没更新的，可能某些功能失效，只是转换支持Fugu15而已。安装前确保使用的Fugu15和ElleKit是最新版。提示：毕竟不是插件作者更新支持rootless，可能会出现闪退、卡注销、卡用户空间重启等bug，若出现风险，自行承担！
+Author: Jan
+Icon: https://chinesebuilding.club/pic/cydia.png
+Name: Jan-WeChat-Rootless
+Sponsor: 搬运工
+
+Package: com.yan.anitime.666
+Version: 9.9999
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 1488
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: ./debs/anitime动态锁屏风格-Rootless.deb
+Size: 392356
+MD5sum: 5b49a3ce3654b450f3807c37f1557761
+SHA1: 5de0dc0c6e4253a4acd1424e78cc71716343b389
+SHA256: 28b9b094bf717b2f95404b68e5ff14032b561ec427d6b4950796cda21481bcfc
+Section: Tweaks
+Description: Animated anime characters as your clock digits.
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
+Name: AniTime
+
 Package: jp.ps.zetsu
 Version: 1.5
 Architecture: iphoneos-arm64
