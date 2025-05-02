@@ -278,6 +278,21 @@ Author: IOSign
 Name: 搜狗输入法内购破解 (rootless)
 Sponsor: IOSign
 
+Package: com.Ps666666.sushi.ZH
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/com.Ps666666.sushi.ZH_1.0.1_iphoneos-arm64 (1).deb
+Size: 1912
+MD5sum: 5e69108f2b2a4bcc806c06807a4b09b4
+SHA1: adae1238fa6506bc4552d6b84e1ae977c23fec56
+SHA256: 527497cc04e2089b27755441bd770b2c47defe7cd103de0f73c55472c5c99031
+Section: 个人汉化
+Description: Sushi 简体中文包(rootless)。
+Author: P神
+Name: Sushi 简体中文包(rootless)
+
 Package: com.Ps666666.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
