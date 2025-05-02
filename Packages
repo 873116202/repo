@@ -1,0 +1,367 @@
+Package: com.Ps666666.DenyPhotoAlbums.ZH
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/com.Ps666666.DenyPhotoAlbums.ZH_1.2.0_iphoneos-arm64.deb
+Size: 2408
+MD5sum: f0cf551437e46d5121c6e17015cd74ec
+SHA1: 99791b33228427c1838dab2d2d96d779b58e871c
+SHA256: 3b17e8ae108927ffeabca2309157b0987979091866d155a96331e01da138fc9b
+Section: 个人汉化
+Description: DenyPhotoAlbums 简体中文包(rootless)。
+Author: P神
+Name: DenyPhotoAlbums 简体中文包(rootless)
+
+Package: com.Ps666666.appdatas
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, byg.iosios.net.appdata-rootless, com.dao.appdata
+Filename: ./debs/iphoneos-arm64/appdatas-Rootless.deb
+Size: 5047692
+MD5sum: 5aa3d8e798b7aeb7ffc40fc2fdde9c05
+SHA1: 32999bd449122b8bfb074b387d67c6e7bfc97e56
+SHA256: e00a699186d24c573ea3b84734d4d242cab919a38d0124b1840507b01cc33595
+Section: iphoneos-arm64
+Description: 桌面图标增强插件
+ * 由 Netskao 汉化修改
+ * 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标
+ * View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData (rootless)
+
+Package: com.Ps666666.aria
+Version: 0.9.8.1
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/iphoneos-arm64/Aria控制中心背景图-Rootless.deb
+Size: 93488
+MD5sum: bd747c1cc2e56c9a33612db945652a2b
+SHA1: 247ef9773a58f112cc529d70168e4ab6fc9cab24
+SHA256: 34d054a7d8480e63ffcaf0c9276fc25dbe9b7b3ddb721c2820a1fb28128a561d
+Section: iphoneos-arm64
+Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
+Author: Luki
+Name: Aria (rootless)
+Sponsor: Luki
+
+Package: com.Ps666666.blockappscreatealbum
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/禁止创建相册-Rootless.deb
+Size: 4496
+MD5sum: 8be22c2615c2bcc9bed87f9a3f9a195e
+SHA1: e5024a0512811b421a3649b69ece3a20f6071c4f
+SHA256: 3838cdf3cead35c10ff3f7172c7b00071100126ad3d53b97241b1ed2e50dbea0
+Section: iphoneos-arm64
+Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Author: Netskao
+Name: 阻止应用程序创建自己的相册 (rootless)
+Sponsor: Netskao
+
+Package: com.Ps666666.ccpower
+Version: 1.9-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Conflicts: netskao.ccpower-rootless
+Provides: netskao.ccpower-rootless (=1.9-4)
+Filename: ./debs/iphoneos-arm64/ccpower-Rootless.deb
+Size: 957552
+MD5sum: 329db55b6a312a164fdd42ccceed2525
+SHA1: a1bef99579a7f7ba00543406e55c2c3ff625c9a2
+SHA256: 0dad680d3f3b32b34527a319828768ed51e0cc5c82779728785d9cd3922bdbc0
+Section: iphoneos-arm64
+Description: Control Center Quick Power Tool, Supports iOS11-iOS15
+Author: Netskao
+Name: CCPower (rootless)
+
+Package: com.Ps666666.ccswitchdata
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64/sim卡切换-Rootless.deb
+Size: 20860
+MD5sum: f54ca155d926a8f18ebba124b7778a8a
+SHA1: 5299d54067be59fb203e0c6058323e909486a354
+SHA256: 6b8074ded5bf691c478e9ba741b0be830812b24600ff1a53a21d17babcd3a55b
+Section: iphoneos-arm64
+Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center对于双SIM卡，可以通过控制中心快速切换选定的蜂窝网络
+Author: Netskao
+Name: CCSwitchData (rootless)
+Sponsor: Netskao
+
+Package: com.Ps666666.checkproxybypass
+Version: 0.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: zxc
+Installed-Size: 172
+Depends: mobilesubstrate , preferenceloader,com.opa334.altlist
+Filename: ./debs/iphoneos-arm64/禁止代理检测-Rootless.deb
+Size: 4612
+MD5sum: 443404af38b314de795f71f207f76829
+SHA1: d57dba72bed0909c6178e027acc573fe43a6fd1e
+SHA256: 849db3fe4a47fbc6c9887eba373b1192818e9a648d54029a18283ca3524ca6ac
+Section: iphoneos-arm64
+Description: 去除app抓包检测,安装之后在设置里面开启,有问题可以进群反馈！
+Author: zxc
+Name: 禁止代理检测 (rootless)
+Sponsor: zxc
+
+Package: com.Ps666666.cpudasher
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/CPU Dasher 破解-Rootless.deb
+Size: 2948
+MD5sum: 297d20dcaf2921c6958c72c8f39ff1a4
+SHA1: 5c20f1c1534b425c720564e1fb25b01a1b0f5dd1
+SHA256: 15d0e5ce3002cf12d73ed9510ee604763243e55066d799bc2740f5ad66a32104
+Section: iphoneos-arm64
+Description: 解锁专业版，插件无任何弹窗！由搬运工源iOSign免费首发，如需转载，请留出处，谢谢！搬运工源只为给大家带来更多更好的插件！
+Author: iOSign
+Name: CPUDasher破解 (rootless)
+Sponsor: 搬运工
+
+Package: com.Ps666666.flexlist
+Version: 1.4-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 3736
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/iphoneos-arm64/flexlist-Rootless.deb
+Size: 833172
+MD5sum: 7aa351492146a84094eca71d9d67529a
+SHA1: a62fb19c58fbd0cb756e3a9422502ceab0772025
+SHA256: 3ad7cd95574e3e9444edb7854319ffc4c21e31b6ce5c286af59c668ec9b73d4d
+Section: iphoneos-arm64
+Description: FLEXList is a wrapper tool for FLEX Tool
+Author: Netskao
+Name: FLEXList (rootless)
+
+Package: com.Ps666666.floating-view
+Version: 1.5.5-6
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3168
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/floating-view分屏-Rootless.deb
+Size: 605628
+MD5sum: 1c47268b5fce2258dfc01cad198659a8
+SHA1: 1af171d3c875bd51c6d2e1bc3fcc6993153b5087
+SHA256: 6bd8c5d693eea640282cf9ede26fdcc9cc5d04ee0a6504d83c3aa462cf701a1d
+Section: iphoneos-arm64
+Description: 一款你最爱的分屏，不必太复杂，一切从简即可。(此版本未收费版本没购买的请勿使用)
+Author: be-huge
+Name: FloatingView (rootless)
+
+Package: com.Ps666666.halo.ZH
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/com.Ps666666.halo.ZH_2.2_iphoneos-arm64.deb
+Size: 2708
+MD5sum: ea7dc3549eea788421f7edb1bc83a2c9
+SHA1: 54c6fdfd3bbd3817d3d81e2a6c33044366b4894e
+SHA256: b3ff127c2612db827ac2b9dcd7f914205dfdd3bbf9956e3dea5e2cc49623394d
+Section: 个人汉化
+Description: Halo 简体中文包(rootless)。
+Author: P神
+Name: Halo 简体中文包(rootless)
+
+Package: com.Ps666666.injectipa
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Depends: firmware (>= 15.0)
+Conflicts: netskao.injectipa-rootless
+Provides: netskao.injectipa-rootless (=1.4-4)
+Filename: ./debs/iphoneos-arm64/injectipa-Rootless.deb
+Size: 962484
+MD5sum: 22c12222f2a8fc204a7f15e8644b71b8
+SHA1: 1d19def7d6efd2a7f5abd08196ce55d557cb394e
+SHA256: fbd817f50b51178a83e50bc27bdc532aa6bcbbb735b027632b14256098786dff
+Section: Terminal_Support
+Description: injectipa 是一款命令行一键注入dylib 到 ipa 工具。用法: injectipa ipa 路径 dylib 路径 (如有多个 dylib 依次填写在末尾即可), 其它参数执行 injectipa 查看即可, 注入完成后的 IPA 需要签名使用
+Author: Netskao
+Name: Injectipa (rootless)
+
+Package: com.Ps666666.jade
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Installed-Size: 1502
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/jade控制中心美化-Rootless.deb
+Size: 307936
+MD5sum: 74c116b0a4093b6fdcb6bf99993afdf8
+SHA1: c143aa5d4f4323c4dae11755cc3412129ecfa365
+SHA256: 344b955b8cff276c7fbabf2918ebdd13782bcf67031e0d778dd506d50a4350ef
+Section: iphoneos-arm64
+Description: Your control center, brought anew.一款控制中心美化插件，非常的不错
+Author: Nightwind and thetimeloop
+Name: Jade控制中心美化 (rootless)
+Sponsor: Nightwind
+
+Package: com.Ps666666.janwechat
+Version: 1.1.5-1
+Architecture: iphoneos-arm64
+Maintainer: Jan
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/Jan WeChat微信助手rootless.deb
+Size: 599344
+MD5sum: 1dd893c383c3c60526ad6dfb89a9ac97
+SHA1: 5b6decacf09c01519e27c0852a9748c2882a4868
+SHA256: bbb814750e38e2c646eeca8c4e5a98902b031a942bc824cdd5fa86ad8a0d7865
+Section: 微信插件
+Description: Jan WeChat微信助手rootless版，插件还是老版本，作者都不见了，没更新的，可能某些功能失效，只是转换支持Fugu15而已。安装前确保使用的Fugu15和ElleKit是最新版。提示：毕竟不是插件作者更新支持rootless，可能会出现闪退、卡注销、卡用户空间重启等bug，若出现风险，自行承担！
+Author: Jan
+Name: JanWeChat (rootless)
+Sponsor: Jan
+
+Package: com.Ps666666.safarix
+Version: 1.3.0
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), com.dao.safarix.cn
+Conflicts: com.0xkuj.safarix
+Filename: ./debs/iphoneos-arm64/SafariX-Rootless.deb
+Size: 272368
+MD5sum: 8472604d6e97d1fd536e5c37f69f418d
+SHA1: 028464335df8e860a9452a981264a6fe112b066f
+SHA256: f9f6a45620cd80de8cffc8abc015ab87acf7605cd9b84e8230100a5c291743be
+Section: iphoneos-arm64
+Description: Safari 浏览器多功能增强插件！
+Author: 0xkuj
+Name: SafariX (rootless)
+
+Package: com.Ps666666.smartBattery2.ZH
+Version: 1.6
+Architecture: iphoneos-arm64
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/com.Ps666666.smartBattery2.ZH_1.6_iphoneos-arm64.deb
+Size: 6436
+MD5sum: 662980b198d5845e05d223dcc666e620
+SHA1: 53e04b5dc8d332f3d7f2e17a68ad07abc00da919
+SHA256: 9cdd43ad72be969783b63314ee8e0430d15e14d6d1af3340274e93614c5fbb8d
+Section: 个人汉化
+Description: SmartBattery2 简体中文包(rootless)。
+Author: P神
+Name: SmartBattery2 简体中文包(rootless)
+
+Package: com.Ps666666.sogouinput
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: IOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/搜狗输入法内购破解-Rootless.deb
+Size: 3308
+MD5sum: 814e0d226d8236f6b1f83b4f8ac62ce6
+SHA1: da21b0f32b5e47823a117badcaf32b2c9d5c268b
+SHA256: aca366f98ab49823de9d281e9f55b6b0a106b6e92e436220495513105d3b740b
+Section: iphoneos-arm64
+Description: 输入法皮肤内购破解，多款付费皮肤随心购！
+Author: IOSign
+Name: 搜狗输入法内购破解 (rootless)
+Sponsor: IOSign
+
+Package: com.Ps666666.sushi.ZH
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64/com.Ps666666.sushi.ZH_1.0.1_iphoneos-arm64.deb
+Size: 1908
+MD5sum: 330472a4464cd809909536fee847924b
+SHA1: 1e57c5f58fb19463da68940b29fe6de876b902c6
+SHA256: ce78c5988e8de5142c4217a58bc4a99ef4fb610b9eb82278217ae01b0a1f6bd7
+Section: 嗨-汉化
+Description: Sushi 简体中文包(rootless)。
+Author: P神
+Name: Sushi 简体中文包(rootless)
+
+Package: com.Ps666666.wcpureextension
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.wechatpurification-rootless
+Replaces: netskao.wechatpurification-rootless
+Provides: netskao.wechatpurification-rootless
+Filename: ./debs/iphoneos-arm64/微信净化-Rootless.deb
+Size: 7088056
+MD5sum: cb1f76bd4853cd53af73ec9e49d84bdb
+SHA1: 5f4ab6c47003bb4c9aa0b3950e1698fc1d4b1dfc
+SHA256: 52cc4a387a38a9b6affa52a311f197caac82d361546ea7ead9864d355862b4d9
+Section: 微信插件
+Description: 无期限的红包版本。
+Author: Netskao
+Name: 微信净化红包版 (rootless)
+
+Package: com.Ps666666.zetsu
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64/zetsu分屏器-Rootless.deb
+Size: 9647260
+MD5sum: 686d304e471cb2b697b1db3493fed25b
+SHA1: 58285d0b25bf78280a59d1b1aed09e8ee8177fbb
+SHA256: ce5c95583a787e9f54ed05e521ef12f511d7afb063f8b659accd160b475c439e
+Section: iphoneos-arm64
+Description: Multitasking on iOS15 - iOS16. Zetsu一款非常不错的分屏插件
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu (rootless)
+
+Package: com.Ps666666.zyts
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/屏蔽设置重要提醒-Rootless.deb
+Size: 3024
+MD5sum: 0fffe8de62284e7600685015f00565ba
+SHA1: 64a82df40ad880bb1678e80277671fc0b49791c5
+SHA256: dae2661a8ca3e9b1039e81d4117719c4930e5771a9d314bb10ed9c28d52b1bbf
+Section: iphoneos-arm64
+Description: 屏蔽设置里的重要提醒以及非正版电池配件提醒！搬运工源，搬你所想！
+Author: iOSign
+Name: 屏蔽设置重要提醒 (rootless)
+Sponsor: iOSign
+
+Package: com.Ps6666666.anitime
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 1488
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: ./debs/iphoneos-arm64/anitime动态锁屏风格-Rootless.deb
+Size: 392792
+MD5sum: 229cdf386c00787950c25e807ced908d
+SHA1: 187347d7daf3fe2723fdfa511461cae6671d8604
+SHA256: ab9822fb60e4861dc3fce53720721c7c18c99963179cf4312470aa1ef0bb7d2a
+Section: iphoneos-arm64
+Description: Animated anime characters as your clock digits. 动画动漫人物作为你的时钟数字
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
+Name: Anitime (rootless)
+
