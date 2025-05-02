@@ -123,11 +123,11 @@ Maintainer: 搬运工
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/iphoneos-arm64/CPU Dasher 破解-Rootless.deb
-Size: 2948
-MD5sum: 297d20dcaf2921c6958c72c8f39ff1a4
-SHA1: 5c20f1c1534b425c720564e1fb25b01a1b0f5dd1
-SHA256: 15d0e5ce3002cf12d73ed9510ee604763243e55066d799bc2740f5ad66a32104
-Section: iphoneos-arm64
+Size: 2952
+MD5sum: f67431a16b73b3a446579854905d14b6
+SHA1: 45eeac92467689f5a1eccade09dae6c576c4e9d8
+SHA256: 8862293aeaf1e9e6a16059faa32470004727c6d67768317347ffce554597fe78
+Section: 小玩具
 Description: 解锁专业版，插件无任何弹窗！由搬运工源iOSign免费首发，如需转载，请留出处，谢谢！搬运工源只为给大家带来更多更好的插件！
 Author: iOSign
 Name: CPUDasher破解 (rootless)
@@ -285,11 +285,11 @@ Maintainer: IOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/iphoneos-arm64/搜狗输入法内购破解-Rootless.deb
-Size: 3308
-MD5sum: 814e0d226d8236f6b1f83b4f8ac62ce6
-SHA1: da21b0f32b5e47823a117badcaf32b2c9d5c268b
-SHA256: aca366f98ab49823de9d281e9f55b6b0a106b6e92e436220495513105d3b740b
-Section: iphoneos-arm64
+Size: 3316
+MD5sum: f082ca80b4d8bfb2b20025c0dba8adaa
+SHA1: 16f1de2f1cb3d24b8019bbde2ff7a24756de9d3d
+SHA256: 096b030895acc2a2c09da387ba2e4065c1e20308cd91f49bdbbfbb4554cbf51b
+Section: 小玩具
 Description: 输入法皮肤内购破解，多款付费皮肤随心购！
 Author: IOSign
 Name: 搜狗输入法内购破解 (rootless)
@@ -315,12 +315,12 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: choco
 Installed-Size: 14980
-Filename: ./debs/iphoneos-arm64/tgextras.deb
-Size: 1076028
-MD5sum: a08cf614eedbdd37752477b3500422cd
-SHA1: ea1472ea8c73c463e1125aead7428d85ff631a8a
-SHA256: 46314c23f424312fb3fa2fa86946c6ca4878c9d9f78ff4d1a0a3cc3ddda05448
-Section: 应用破解
+Filename: ./debs/iphoneos-arm64/tgextras (1).deb
+Size: 1076740
+MD5sum: aeb8d19e87bec649c7d9d98c067a4127
+SHA1: 1fb81e2f3f6d20bc75c3c3818e2475bf35ae225b
+SHA256: 206562b9bc09b85f7a51ba2f491e2ead3c08602564903f525738a8b711637abd
+Section: 小玩具
 Description: Telegram 增强插件
  * 去除广告
  * 虚拟定位
