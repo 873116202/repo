@@ -315,19 +315,19 @@ Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: choco
 Installed-Size: 14980
-Filename: ./debs/iphoneos-arm64/tgextras (1).deb
-Size: 1076740
-MD5sum: aeb8d19e87bec649c7d9d98c067a4127
-SHA1: 1fb81e2f3f6d20bc75c3c3818e2475bf35ae225b
-SHA256: 206562b9bc09b85f7a51ba2f491e2ead3c08602564903f525738a8b711637abd
+Filename: ./debs/iphoneos-arm64/tgextras.deb
+Size: 1075932
+MD5sum: e9ba50296d909e8deb98c47993eeaac5
+SHA1: 97c5bc59a9cec5554ef0e3fbd8c207425765294e
+SHA256: a99c03d13dade6bfe3503c63d14ded49fb1c052a21634cc38b17528f0dcd5bb8
 Section: 小玩具
 Description: Telegram 增强插件
  * 去除广告
  * 虚拟定位
  * 隐藏一些输入状态
  * 允许保存频道限制下载的文件
- * 设置界面-长按倒数第三个选项“客服”打开插件需把应用程序app切换成英文然后按照方法呼插件设置好插件以后切换回中文即可
  * 支持 Telegram、Turrit 等第三方客户端
+  * 设置界面-长按倒数第三个选项“客服”打开插件需把应用程序app切换成英文然后按照方法呼插件设置好插件以后切换回中文即可
 Author: choco
 Name: TGExtra (rootless)
 
