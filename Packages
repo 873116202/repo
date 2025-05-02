@@ -357,12 +357,12 @@ Maintainer: Netskao
 Installed-Size: 2336
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Filename: ./debs/iphoneos-arm64/微信通知头像.deb
-Size: 523260
-MD5sum: 130044c0b46209a56aef69a4a43a519c
-SHA1: baf739722ca1e42bd69d2ba360f5d6f4686e5409
-SHA256: cb705e3287cc6e6fa4ae40c09b2706f793dd9fae0680a42c2b84d92a2013b20c
+Size: 522888
+MD5sum: cb5e8ae29837342045f26985725f4dd7
+SHA1: bc25fb110d8c00ff8e48aa1cafd57d9afa09b1dd
+SHA256: 2bf4377b1cdaeea273c22d35566ea6f8ac90da050c635dd797de153c7b363312
 Section: iphoneos-arm64
-Description: Display Notification Avatars for WeChat App using iOS15+ APIs
+Description: 使用iOS15+API显示微信应用程序的通知头像
 Author: Netskao
 Name: WeChatNotiAvatar (rootless)
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
