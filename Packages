@@ -15,6 +15,26 @@ Author: iOSign
 Name: 屏蔽设置重要提醒-Rootless
 Sponsor: iOSign
 
+Package: com.Ps666666.appdatas
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 3772
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, byg.iosios.net.appdata-rootless, com.dao.appdata
+Filename: ./debs/iphoneos-arm64/appdatas-Rootless.deb
+Size: 5051680
+MD5sum: 9a5c0cac7701efd13e041009eba71113
+SHA1: 3283851d4ebb405c7c82d866b522f471af8137ad
+SHA256: 4f1cbdb2a70db29368311af22c2da6042050febd98659634aef5aaedc20df04b
+Section: iphoneos-arm64
+Description: 桌面图标增强插件
+ * 由 Netskao 汉化修改
+ * 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标
+ * View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Name: AppData-Rootless
+
 Package: com.Ps666666.aria
 Version: 0.9.8.1
 Architecture: iphoneos-arm64
@@ -29,6 +49,23 @@ Description: Enhance the stock CC or Prysm on the fly(修改控制中心背景�
 Author: Luki
 Name: Aria控制中心背景图-Rootless
 Sponsor: Luki
+
+Package: com.Ps666666.blockappscreatealbum-rootless
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 168
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/禁止创建相册-Rootless.deb
+Size: 4496
+MD5sum: 15d64c43cb34346b609dfd571c080113
+SHA1: eeaafd024d8a3ca32bf57777ea334b64d6f82486
+SHA256: 7fcf01ae7790287cbb6f3b5dfd432d0af8cf87ac549e40803199b45aacf374db
+Section: iphoneos-arm64
+Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Author: Netskao
+Name: 阻止应用程序创建自己的相册-Rootless
+Sponsor: Netskao
 
 Package: com.Ps666666.ccpower
 Version: 1.9-4
@@ -130,6 +167,23 @@ Description: 一款你最爱的分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView分屏-Rootless
 
+Package: com.Ps666666.injectipa
+Version: 1.4-4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Depends: firmware (>= 15.0)
+Conflicts: netskao.injectipa-rootless
+Provides: netskao.injectipa-rootless (=1.4-4)
+Filename: ./debs/iphoneos-arm64/injectipa-Rootless.deb
+Size: 962800
+MD5sum: 0fba018be4c3e29cf3b523b103fc63fc
+SHA1: 07e478069e953903a7ac291a30bad0adb7bd2281
+SHA256: 68682a175c4d8e7aa22d9f66cb30490a401717fa970609bf6faae1ed24339ffd
+Section: Terminal_Support
+Description: injectipa 是一款命令行一键注入dylib 到 ipa 工具。用法: injectipa ipa 路径 dylib 路径 (如有多个 dylib 依次填写在末尾即可), 其它参数执行 injectipa 查看即可, 注入完成后的 IPA 需要签名使用
+Author: Netskao
+Name: injectipa
+
 Package: com.Ps666666.jade
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -195,6 +249,25 @@ Description: 输入法皮肤内购破解，多款付费皮肤随心购！搬运�
 Author: IOSign
 Name: 搜狗输入法内购破解-Rootless
 Sponsor: IOSign
+
+Package: com.Ps666666.wcpureextension-rootless
+Version: 4.2-6
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 19660
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.wechatpurification-rootless
+Replaces: netskao.wechatpurification-rootless
+Provides: netskao.wechatpurification-rootless
+Filename: ./debs/iphoneos-arm64/微信净化-Rootless.deb
+Size: 7086404
+MD5sum: 15881882856a8e3949bfcd0a90916aa2
+SHA1: 614b3737a8c2c99a43b42eeb1f0c8e88e5734c70
+SHA256: 8fe973c96a843b119454105913ea7ff0b37d3adb6b6fad5a1366ba0b726b23cc
+Section: 微信插件
+Description: 无期限的红包版本。
+Author: Netskao
+Name: 微信净化红包版
 
 Package: com.Ps666666.zetsu
 Version: 1.5
