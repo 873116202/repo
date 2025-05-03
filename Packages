@@ -309,27 +309,6 @@ Description: Sushi 简体中文包(rootless)。
 Author: P神
 Name: Sushi 简体中文包(rootless)
 
-Package: com.Ps666666.tgextras
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: choco
-Installed-Size: 14980
-Filename: ./debs/iphoneos-arm64/tgextras.deb
-Size: 1075932
-MD5sum: e9ba50296d909e8deb98c47993eeaac5
-SHA1: 97c5bc59a9cec5554ef0e3fbd8c207425765294e
-SHA256: a99c03d13dade6bfe3503c63d14ded49fb1c052a21634cc38b17528f0dcd5bb8
-Section: 小玩具
-Description: Telegram 增强插件
- * 去除广告
- * 虚拟定位
- * 隐藏一些输入状态
- * 允许保存频道限制下载的文件
- * 支持 Telegram、Turrit 等第三方客户端
-  * 设置界面-长按倒数第三个选项“客服”打开插件需把应用程序app切换成英文然后按照方法呼插件设置好插件以后切换回中文即可
-Author: choco
-Name: TGExtra (rootless)
-
 Package: com.Ps666666.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
