@@ -54,12 +54,12 @@ Maintainer: Netskao
 Installed-Size: 168
 Depends: firmware (>= 13.0), mobilesubstrate
 Filename: ./debs/iphoneos-arm64/禁止创建相册-Rootless.deb
-Size: 4496
-MD5sum: 8be22c2615c2bcc9bed87f9a3f9a195e
-SHA1: e5024a0512811b421a3649b69ece3a20f6071c4f
-SHA256: 3838cdf3cead35c10ff3f7172c7b00071100126ad3d53b97241b1ed2e50dbea0
+Size: 4448
+MD5sum: f97a8a879f50dfe437bc673293b05d2a
+SHA1: f43223089714b0ab76ff61476f8fa18300e0f5ad
+SHA256: 392e680a1ca8a06d1dbec88a4d659893b5c3552b3ae166d73a96055052197ef5
 Section: iphoneos-arm64
-Description: Block applications from creating their own albums阻止应用程序创建自己的相册
+Description: 阻止应用程序创建自己的相册
 Author: Netskao
 Name: 阻止应用程序创建自己的相册 (rootless)
 Sponsor: Netskao
@@ -373,12 +373,12 @@ Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 11004
 Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
 Filename: ./debs/iphoneos-arm64/zetsu分屏器-Rootless.deb
-Size: 9647260
-MD5sum: 686d304e471cb2b697b1db3493fed25b
-SHA1: 58285d0b25bf78280a59d1b1aed09e8ee8177fbb
-SHA256: ce5c95583a787e9f54ed05e521ef12f511d7afb063f8b659accd160b475c439e
+Size: 9646872
+MD5sum: 5537718494e26efb2431bdbaf43b0253
+SHA1: b2cbbbb36f2fd9b7a3702504f0bf5274adab2825
+SHA256: 82c3b57756cd63318fcd9c45d0871bc41d911bd92746082c998a3974d4890f7e
 Section: iphoneos-arm64
-Description: Multitasking on iOS15 - iOS16. Zetsu一款非常不错的分屏插件
+Description: Zetsu一款非常不错的分屏插件
 Tag: compatible_min::ios15.0
 Author: Dcsyhi <dcsyhi1998@gmail.com>
 Depiction: https://chariz.com/get/zetsu
