@@ -203,12 +203,12 @@ Maintainer: Nightwind
 Installed-Size: 1502
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
 Filename: ./debs/iphoneos-arm64/jade控制中心美化-Rootless.deb
-Size: 307936
-MD5sum: 74c116b0a4093b6fdcb6bf99993afdf8
-SHA1: c143aa5d4f4323c4dae11755cc3412129ecfa365
-SHA256: 344b955b8cff276c7fbabf2918ebdd13782bcf67031e0d778dd506d50a4350ef
+Size: 307564
+MD5sum: 878d7a89daf8efdbfef89fcaa1b45b66
+SHA1: 367e0a5596a514b2c24541debba29e7082db4f90
+SHA256: bdd8af77eed27ce9109492134f101212b7c37e5d0a4a277c3f8419001324569d
 Section: iphoneos-arm64
-Description: Your control center, brought anew.一款控制中心美化插件，非常的不错
+Description: Jade一款控制中心美化插件，非常的不错
 Author: Nightwind and thetimeloop
 Name: Jade控制中心美化 (rootless)
 Sponsor: Nightwind
