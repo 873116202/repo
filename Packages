@@ -72,12 +72,12 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
 Conflicts: netskao.ccpower-rootless
 Provides: netskao.ccpower-rootless (=1.9-4)
 Filename: ./debs/iphoneos-arm64/ccpower-Rootless.deb
-Size: 957552
-MD5sum: 329db55b6a312a164fdd42ccceed2525
-SHA1: a1bef99579a7f7ba00543406e55c2c3ff625c9a2
-SHA256: 0dad680d3f3b32b34527a319828768ed51e0cc5c82779728785d9cd3922bdbc0
+Size: 957572
+MD5sum: b97bbc62e2f696baead16d06c06f782e
+SHA1: 41d08b11e6149325e2f24ac37eee42b344bed2ca
+SHA256: 5de92c7f2d62ba93aa4a098b06a0ce477fd7a3efe92f65aa2d2f528669cc517c
 Section: iphoneos-arm64
-Description: Control Center Quick Power Tool, Supports iOS11-iOS15
+Description: ccpower控制中心模块功能关机重启注销等功能
 Author: Netskao
 Name: CCPower (rootless)
 
