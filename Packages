@@ -410,12 +410,12 @@ Maintainer: yan
 Installed-Size: 1488
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
 Filename: ./debs/iphoneos-arm64/anitime动态锁屏风格-Rootless.deb
-Size: 392792
-MD5sum: 229cdf386c00787950c25e807ced908d
-SHA1: 187347d7daf3fe2723fdfa511461cae6671d8604
-SHA256: ab9822fb60e4861dc3fce53720721c7c18c99963179cf4312470aa1ef0bb7d2a
+Size: 392740
+MD5sum: c6d2426c47e266d16efff972e75c6f8f
+SHA1: 372fff59b5ece8a4664f42e67f85f62b4ff5649b
+SHA256: b179e0bdae613734317a760a54a0199a61dc546a5a8619ef34761221088adbf1
 Section: iphoneos-arm64
-Description: Animated anime characters as your clock digits. 动画动漫人物作为你的时钟数字
+Description: Anitime动画动漫人物作为你的时钟数字
 Author: yan
 Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
 Name: Anitime (rootless)
