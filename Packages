@@ -250,13 +250,13 @@ Package: com.Ps666666.safarix
 Version: 1.3.0
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0), com.dao.safarix.cn
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Conflicts: com.0xkuj.safarix
 Filename: ./debs/iphoneos-arm64/SafariX-Rootless.deb
-Size: 272368
-MD5sum: 8472604d6e97d1fd536e5c37f69f418d
-SHA1: 028464335df8e860a9452a981264a6fe112b066f
-SHA256: f9f6a45620cd80de8cffc8abc015ab87acf7605cd9b84e8230100a5c291743be
+Size: 275368
+MD5sum: a0df8a1aa3f6a220fde70a12ec605566
+SHA1: 71d6cc7496f72b0fa7f6b324496a8a1528d9f835
+SHA256: a4ba82e7f8f867bfdfff33781fce59fb5dc1bf7a38d5179058a50bf929636b59
 Section: iphoneos-arm64
 Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
@@ -373,10 +373,10 @@ Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 11004
 Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
 Filename: ./debs/iphoneos-arm64/zetsu分屏器-Rootless.deb
-Size: 9646872
-MD5sum: 5537718494e26efb2431bdbaf43b0253
-SHA1: b2cbbbb36f2fd9b7a3702504f0bf5274adab2825
-SHA256: 82c3b57756cd63318fcd9c45d0871bc41d911bd92746082c998a3974d4890f7e
+Size: 9657608
+MD5sum: d796ecdec1bc4601c9f8d27ad8978fa2
+SHA1: 9cbf14b50c3cb37c4de263d02ed89f1d2049ab43
+SHA256: b3570405568e8b5c8424af35716832a31d1a213e3d4b8041afdc3ce2e1ce7929
 Section: iphoneos-arm64
 Description: Zetsu一款非常不错的分屏插件
 Tag: compatible_min::ios15.0
