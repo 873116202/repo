@@ -21,15 +21,14 @@ Installed-Size: 3772
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata, byg.iosios.net.appdata-rootless, com.dao.appdata
 Filename: ./debs/iphoneos-arm64/appdatas-Rootless.deb
-Size: 5047692
-MD5sum: 5aa3d8e798b7aeb7ffc40fc2fdde9c05
-SHA1: 32999bd449122b8bfb074b387d67c6e7bfc97e56
-SHA256: e00a699186d24c573ea3b84734d4d242cab919a38d0124b1840507b01cc33595
+Size: 5047876
+MD5sum: d69bd2d4418e044589e52b38f18ce839
+SHA1: d16e6a00439873dcbb52552d38c2692cd7dc4ee4
+SHA256: a51f851cf86be04ecb8b9dadba40ab7ea519b2e78362e25dbcb668e21951bc68
 Section: iphoneos-arm64
 Description: 桌面图标增强插件
  * 由 Netskao 汉化修改
  * 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标
- * View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData (rootless)
 
