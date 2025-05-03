@@ -81,23 +81,6 @@ Description: ccpower控制中心模块功能关机重启注销等功能
 Author: Netskao
 Name: CCPower (rootless)
 
-Package: com.Ps666666.ccswitchdata
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 132
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/iphoneos-arm64/sim卡切换-Rootless.deb
-Size: 20860
-MD5sum: f54ca155d926a8f18ebba124b7778a8a
-SHA1: 5299d54067be59fb203e0c6058323e909486a354
-SHA256: 6b8074ded5bf691c478e9ba741b0be830812b24600ff1a53a21d17babcd3a55b
-Section: iphoneos-arm64
-Description: For dual-SIM cards, the selected cellular network can be switched quickly via the Control Center对于双SIM卡，可以通过控制中心快速切换选定的蜂窝网络
-Author: Netskao
-Name: CCSwitchData (rootless)
-Sponsor: Netskao
-
 Package: com.Ps666666.checkproxybypass
 Version: 0.1.1-2
 Architecture: iphoneos-arm64
