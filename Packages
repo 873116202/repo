@@ -139,12 +139,12 @@ Maintainer: Nets
 Installed-Size: 3736
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./debs/iphoneos-arm64/flexlist-Rootless.deb
-Size: 833172
-MD5sum: 7aa351492146a84094eca71d9d67529a
-SHA1: a62fb19c58fbd0cb756e3a9422502ceab0772025
-SHA256: 3ad7cd95574e3e9444edb7854319ffc4c21e31b6ce5c286af59c668ec9b73d4d
+Size: 832944
+MD5sum: aaf19dab4b2c0ec1dd5d18632ef8651e
+SHA1: b364e2e9fc16696b5e044bd5e027f6d1b8442b88
+SHA256: 2ff99dc2567503fbc641704b38db9126687c0a98c270ea705aa69bb2275ec979
 Section: iphoneos-arm64
-Description: FLEXList is a wrapper tool for FLEX Tool
+Description: FLEXList是FLEX工具的包装工具
 Author: Netskao
 Name: FLEXList (rootless)
 
