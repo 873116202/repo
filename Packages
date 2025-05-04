@@ -262,6 +262,22 @@ Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
 Name: SafariX (rootless)
 
+Package: com.Ps666666.satella
+Version: 1.9.0-1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: ./debs/iphoneos-arm64/satella内购破解.deb
+Size: 73504
+MD5sum: f5ead013d87d261366d0d3797010dccd
+SHA1: 45a227e1935eb208c3c03da2dee5c68eacaaa310
+SHA256: 10716e368f1ebc459d6cebbefd512ed6fa8dcc394162fda3f31cd14c7cab7a44
+Section: 小玩具
+Description: 牛X的应用内购买破解器，已包含简体中文包。
+Author: Paisseon
+Name: Satella 中文版(rootless)
+
 Package: com.Ps666666.smartBattery2.ZH
 Version: 1.6
 Architecture: iphoneos-arm64
