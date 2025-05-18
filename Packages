@@ -328,6 +328,22 @@ Description: Sushi 简体中文包(rootless)。
 Author: P神
 Name: Sushi 简体中文包(rootless)
 
+Package: com.Ps666666.tiegesture
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 672
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/tiegesture手势.deb
+Size: 102040
+MD5sum: 8c3dc36f2870bbe84d66eb2394c50d3a
+SHA1: cd945f1b26a73935459df1f617435dac3f196ec3
+SHA256: c2102e2f5c5acb615394495271d2a914d4ec02577cc8536b8d2d0796ea679fa7
+Section: iphoneos-arm64
+Description: 手势插件，一切从简即可。
+Author: be-huge
+Name: TieGesture
+
 Package: com.Ps666666.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
