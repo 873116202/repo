@@ -135,6 +135,22 @@ Dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
 Name: DenyPhotoAlbums (rootless)
 
+Package: com.Ps666666.fbo
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.Ps666666.fbo_0.0.1_iphoneos-arm64 (1).deb
+Size: 3280
+MD5sum: a98ba3e0c9075f49d9fcdecaf2bc2df3
+SHA1: 648c09e4f489df1cc19aa59a288633634b9961e5
+SHA256: e99e36dbe5ffac605c4a98dc5977f0dac7f7208b034495d99f93852c47aa039f
+Section: iphoneos-arm64
+Description: 隐藏文件App底部功能选项卡
+Author: dvntm
+Name: FilesBrowsingOnly
+
 Package: com.Ps666666.flexlist
 Version: 1.4-1
 Architecture: iphoneos-arm64
