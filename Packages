@@ -183,6 +183,24 @@ Description: 一款你最爱的分屏，不必太复杂，一切从简即可。(
 Author: be-huge
 Name: FloatingView (rootless)
 
+Package: com.Ps666666.githubweblegacycompat
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 15.4)
+Filename: ./debs/iphoneos-arm64/com.Ps666666.githubweblegacycompat_1.0.5_iphoneos-arm64.deb
+Size: 19604
+MD5sum: 3676fd8fb8a1f34db1c1006e38b814cc
+SHA1: 4fc0b3f4e1e010b4831082c338cd40b40797c082
+SHA256: 2358dceb0eb447bab965bf3ca4c24fcbb262077b1dfeecbb51e060652d6f4df4
+Section: iphoneos-arm64
+Description: Make GitHub website more accessible on iOS <15.4
+Author: PoomSmart
+Depiction: 通过注入CSS并删除不支持的语法，以及一些polyfill，使GitHub网站在iOS 15.3及更低版本上更容易访问。
+Name: GitHubWebLegacyCompat(rootless)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
 Package: com.Ps666666.halo.ZH
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -343,6 +361,20 @@ Section: 个人汉化
 Description: Sushi 简体中文包(rootless)。
 Author: P神
 Name: Sushi 简体中文包(rootless)
+
+Package: com.Ps666666.tgextra
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: waruhachi
+Conflicts: com.choco.tg
+Filename: ./debs/iphoneos-arm64/com.Ps666666.tgextra_1.2-1_iphoneos-arm64.deb
+Size: 4781600
+MD5sum: bfa9e014cbd7318a51d95bc72f06e348
+SHA1: 526a8bdf323b5e5db1f30da20a09acb525215f4b
+SHA256: bffb0f0a898b9a739928dff844cb209f52435b15d2109add357f3006a4fd1fcf
+Section: 小玩具
+Description: 支持Telegram、Swiftgram的功能插件，能保存频道限制下载文件、禁用广告等；底部「设置」—>长按倒数第三个按钮「Telegram官方客服」打开插件；如果打不开插件设置，先把语言切换自带的英文或者香港中文等—>再长按倒数第三个按钮。
+Name: TGExtra(rootless)
 
 Package: com.Ps666666.tiegesture
 Version: 1.0.0
