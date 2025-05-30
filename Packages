@@ -362,6 +362,21 @@ Description: Sushi 简体中文包(rootless)。
 Author: P神
 Name: Sushi 简体中文包(rootless)
 
+Package: com.Ps666666.tg
+Version: 1.2-1+debug
+Architecture: iphoneos-arm64
+Maintainer: waruhachi
+Installed-Size: 28284
+Filename: ./debs/iphoneos-arm64/com.Ps666666.tg_1.2-1+debug_iphoneos-arm64.deb
+Size: 4654900
+MD5sum: 874f17922117bf8f302e19b9e13e0d1a
+SHA1: ebd6078b657f5282b7f32a750a8f1d9641fc9022
+SHA256: b6d901953b429b77eaf00a0f14d0e271d6e81713a488a147dfc8ca3467408eff
+Section: 小玩具
+Description: Telegram iOS的简单调整由维他编译
+Author: choco
+Name: TGExtra(rootless)
+
 Package: com.Ps666666.tgextra
 Version: 1.2-1
 Architecture: iphoneos-arm64
