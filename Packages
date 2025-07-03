@@ -362,6 +362,21 @@ Description: Sushi 简体中文包(rootless)。
 Author: P神
 Name: Sushi 简体中文包(rootless)
 
+Package: com.Ps666666.tgextra
+Version: 1.3-1
+Architecture: iphoneos-arm64
+Maintainer: choco/waruhachi
+Conflicts: com.choco.tg
+Filename: ./debs/iphoneos-arm64/com.Ps666666.tgextra_1.3-1_iphoneos-arm64.deb
+Size: 4786252
+MD5sum: 6e829b66bcf2700116c6e435405ecbe6
+SHA1: f02a9d1571f4aa1593ad760fd1a0773cca6fd9b1
+SHA256: 20f6d9d39a3010240c9eaa8f51b79ecfa43857bd44913433d9654255a9d57b47
+Section: 小玩具
+Description: 支持Telegram、Swiftgram等的多功能插件，能保存频道限制下载文件、禁用广告等；三指长按手势打开设置；或底部「设置」—>长按倒数第三个按钮打开插件；如果打不开，先把语言切换自带的英文或者香港中文等—>再长按倒数第三个按钮。
+Author: choco/waruhachi
+Name: TGExtra(rootless)
+
 Package: com.Ps666666.tiegesture
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -461,6 +476,23 @@ Size: 392740
 MD5sum: c6d2426c47e266d16efff972e75c6f8f
 SHA1: 372fff59b5ece8a4664f42e67f85f62b4ff5649b
 SHA256: b179e0bdae613734317a760a54a0199a61dc546a5a8619ef34761221088adbf1
+Section: iphoneos-arm64
+Description: Anitime动画动漫人物作为你的时钟数字
+Author: yan
+Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
+Name: Anitime (rootless)
+
+Package: com.Ps6666666.anitime
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: yan
+Installed-Size: 1488
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.comet
+Filename: ./debs/iphoneos-arm64/com.Ps6666666.anitime_1.0.2_iphoneos-arm64.deb
+Size: 405096
+MD5sum: 14e21116c33460448379f6e8295c06d7
+SHA1: fbb9d64770d80e97fa0bb2cadf177998c8833cd5
+SHA256: 5c15649136cf5b2cf60051d1ffe0fe72e029c8d382dd53732eee66ad7988707e
 Section: iphoneos-arm64
 Description: Anitime动画动漫人物作为你的时钟数字
 Author: yan
