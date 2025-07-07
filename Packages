@@ -1,3 +1,22 @@
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 4397700
+MD5sum: 95350e18a7df8f3cad443668ce920bef
+SHA1: ad0de47af8fc58154976d56ec23c4a52399e394e
+SHA256: 673d10675670830ff7d2104113a5342eb41bcfa9812ef6431d8d6ddc3081175d
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(RootHide)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
 Package: com.Ps666666.appdatas
 Version: 1.4.4
 Architecture: iphoneos-arm64
@@ -48,6 +67,24 @@ Description: 阻止应用程序创建自己的相册
 Author: Netskao
 Name: 阻止应用程序创建自己的相册 (rootless)
 Sponsor: Netskao
+
+Package: com.Ps666666.ccplus
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Ps
+Installed-Size: 132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64e/com.Ps666666.ccplus_1.1_iphoneos-arm64e.deb
+Size: 5768008
+MD5sum: 0bc2f9a015a11cb07292eb8020fe2540
+SHA1: c51a7cd906dc487c0e9bca0c04ad227da9760a7b
+SHA256: b387c18cda57c43152b2968b0185ad6e2ec6b6a6c1621d50b63e867fd9b5d02c
+Section: iphoneos-arm64e
+Description: 合集控制中心自用
+Author: Ps
+Name: CCSwitchData (RootHide)
+Sponsor: Ps
 
 Package: com.Ps666666.ccpower
 Version: 1.9-4
@@ -330,6 +367,26 @@ Description: SmartBattery2 简体中文包(rootless)。
 Author: P神
 Name: SmartBattery2 简体中文包(rootless)
 
+Package: com.Ps666666.snowboard
+Version: 1.5.37-Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 3268
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./debs/iphoneos-arm64e/com.Ps666666.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
+Size: 1284828
+MD5sum: e70ddab3051039130365930b1fa6ddc4
+SHA1: 11474268391e9e15347c878a3556d64c11978c17
+SHA256: 7df62c85c18d9efa1725ec450203c1cb5e6c02be8c9178987a64cc306d457164
+Section: iphoneos-arm64e
+Description: Snowboard合集依赖版本
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard (RootHide)
+
 Package: com.Ps666666.sogouinput
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -431,6 +488,26 @@ Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiav
 
 Package: com.Ps666666.zetsu
 Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64e/com.Ps666666.zetsu_1.5_iphoneos-arm64e.deb
+Size: 19306532
+MD5sum: 70c33b2647c710dca4c1a071af66458b
+SHA1: d96c15bb537859c4a11be0d7ba1824ff50cb98cd
+SHA256: 4b9b576c292dcccc920654b14dac0bf8b05b4a27be93d1d9d6970299da494dca
+Section: iphoneos-arm64e
+Description: Zetsu一款非常不错的分屏插件
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu (RootHide)
+
+Package: com.Ps666666.zetsu
+Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 11004
@@ -498,4 +575,77 @@ Description: Anitime动画动漫人物作为你的时钟数字
 Author: yan
 Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
 Name: Anitime (rootless)
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/iphoneos-arm64e/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 1041732
+MD5sum: acb2d97d3e929a49024ce14f259661e6
+SHA1: f2ed2d6fc0780b9dec91b142b24ecd812c062e0f
+SHA256: dfe24fcab1b2fbf9064bcf40e19f86fb416f9224f929c06f5c137b950df6df62
+Section: iphoneos-arm64e
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3 (RootHide)
+
+Package: com.tencent.themebox
+Version: 2.0.9
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Installed-Size: 9516
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64e/com.tencent.themebox_2.0.9_iphoneos-arm64e.deb
+Size: 8284532
+MD5sum: 8b1a98c294eb15e31d4178658acf36cc
+SHA1: 0073b688502d75f4a40c294c8a10c230d02c4880
+SHA256: acf37b8f3695c71f6977876a08a7b1827eaca1d9778fb6f3073b0cc4b7b04413
+Section: 微信插件
+Description: 微信主题盒子
+Author: 懒猫
+Name: 主题盒子 (RootHide)
+
+Package: com.yourepo.themepro.themepro-316-rootless
+Version: 3.9.1
+Architecture: iphoneos-arm64e
+Maintainer: MustangYM <MustangYM@yeah.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Filename: ./debs/iphoneos-arm64e/com.yourepo.themepro.themepro-316-rootless_3.9.1_iphoneos-arm64e.deb
+Size: 11531304
+MD5sum: 54ab598fd292041bd818be7b2bab9e1e
+SHA1: 7d9eb631c878e27c4d9ea64f303d4fe59726e2e2
+SHA256: f783b8f3a0969ddf03fefd7226639af8a4e4104c02c143fafa13e4cfe78d9794
+Section: iphoneos-arm64e
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM <mm13299079785@gmail.com>
+Name: ThemePro-3.9.1-Rootless
+
+Package: wiki.qaq.chromatic.rootless
+Version: 3.0-rootless-release-1724982255.ec2e0f1
+Architecture: iphoneos-arm64e
+Maintainer: Saily Team <support.0xa1@qaq.wiki>
+Pre-Depends: rootless-compat(>= 0.9), firmware (>= 13.0), dpkg, uikittools
+Conflicts: wiki.qaq.chromatic
+Filename: ./debs/iphoneos-arm64e/wiki.qaq.chromatic.rootless_3.0-rootless-release-1724982255.ec2e0f1_iphoneos-arm64e.deb
+Size: 6782900
+MD5sum: a014a32ece4c6f69246029a718e5bf52
+SHA1: b5699d38a01306642a86bccac5ecbcc685e95e4a
+SHA256: 7675f7fe6f2f20444672e5a9b39bfb78a80faf8ed7b2abb533da4aae812aab5e
+Section: iphoneos-arm64e
+Homepage: https://sailyteam.github.io/Saily/index.html
+Description: Modern. Fast. Beautiful.
+Author: Saily Team <support.0xa1@qaq.wiki>
+Depiction: https://sailyteam.github.io/Saily/index.html
+Icon: https://sailyteam.github.io/Saily/Resources/icon.png
+Name: Saily (RootHide)
+Website: https://sailyteam.github.io/Saily/index.html
 
