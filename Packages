@@ -1,22 +1,3 @@
-Package: cn.octoforce.squidextender
-Version: 3.7.4
-Architecture: iphoneos-arm64e
-Maintainer: SquidForce, Backup
-Installed-Size: 9988
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: ./debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
-Size: 6854408
-MD5sum: 2296784215b62820629f2025d36d994e
-SHA1: 23ad784b792daaf204446e0df79b4d090eab0139
-SHA256: 238f5c4494efe5d70d4a30da3d574e1a1b44621f71bed0590dc89a51ae162511
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
-Author: SquidForce, Backup
-Name: SquidExtender(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
 Package: com.Ps666666.appdatas
 Version: 1.4.4
 Architecture: iphoneos-arm64
@@ -35,22 +16,6 @@ Description: 桌面图标增强插件
  * 桌面图标上滑或下滑或3D长按菜单选择即可唤出图标
 Author: Fouad Raheb
 Name: AppData (rootless)
-
-Package: com.Ps666666.aria
-Version: 0.9.8.1
-Architecture: iphoneos-arm64e
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Filename: ./debs/iphoneos-arm64e/com.ps666666.aria_0.9.8.1_iphoneos-arm64e.deb
-Size: 110272
-MD5sum: 1061d2f677c5f3da9cb10f3267159ad2
-SHA1: b78684b69a9e3f71c10387e40c74567d3e11527f
-SHA256: c5227c1950ca89c0814676de4c43d16391f6397f7d6b7388f9bcea3bb97ae7b1
-Section: iphoneos-arm64e
-Description: Aria自定义控制中心背景(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
-Author: Luki
-Name: Aria (rootless)
-Sponsor: Luki
 
 Package: com.Ps666666.aria
 Version: 0.9.8.1
@@ -83,42 +48,6 @@ Description: 阻止应用程序创建自己的相册
 Author: Netskao
 Name: 阻止应用程序创建自己的相册 (rootless)
 Sponsor: Netskao
-
-Package: com.Ps666666.ccplus
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: Ps
-Installed-Size: 132
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/iphoneos-arm64e/com.Ps666666.ccplus_1.1_iphoneos-arm64e.deb
-Size: 5768096
-MD5sum: 47793574ce614cbd44695e32875ac09c
-SHA1: 8b3c37da699f600297ab16263cc7c4863d9c11c3
-SHA256: f78d76e1483f8eb6a21b41d8bd47ad1a65503d0c58d1ae15c8f999fe1fdba47e
-Section: iphoneos-arm64e
-Description: 合集控制中心自用
-Author: Ps
-Name: CCSwitchData (rootless)
-Sponsor: Ps
-
-Package: com.Ps666666.ccpower
-Version: 1.9-4
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
-Conflicts: netskao.ccpower-rootless
-Provides: netskao.ccpower-rootless (=1.9-4)
-Filename: ./debs/iphoneos-arm64e/com.ps666666.ccpower_1.9-4_iphoneos-arm64e.deb
-Size: 1407510
-MD5sum: f4ea413aa0ac4bac92aedc7bdbd63aa3
-SHA1: d6edab6a89027fec4bc024b10efb507eef4455d8
-SHA256: 43a8f3b22d9c38199784d7261021c54fe865c1a4655b9b1e42ac07ab89ddc9d0
-Section: iphoneos-arm64e
-Description: ccpower控制中心模块功能关机重启注销等功能
-Author: Netskao
-Name: CCPower (rootless)
 
 Package: com.Ps666666.ccpower
 Version: 1.9-4
@@ -187,25 +116,6 @@ Description: 解锁专业版，插件无任何弹窗！由搬运工源iOSign免�
 Author: iOSign
 Name: CPUDasher破解 (rootless)
 Sponsor: 搬运工
-
-Package: com.Ps666666.denyphotoalbums
-Version: 1.2.0
-Architecture: iphoneos-arm64e
-Installed-Size: 709
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Filename: ./debs/iphoneos-arm64e/com.ps666666.denyphotoalbums_1.2.0_iphoneos-arm64e.deb
-Size: 87562
-MD5sum: 3c07b86fa96f75b53653d643901b088b
-SHA1: e45bb12be1c7ad0917e21fa2585910edb2f3d964
-SHA256: 81c5a80f5ba3e3ad479a22ea37908b4aca025ff9233d11bb0abd52613e0011d4
-Section: iphoneos-arm64e
-Priority: optional
-Description: 相册增强功能
-Author: CydiaGeek
-Dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
-Name: DenyPhotoAlbums (rootless)
 
 Package: com.Ps666666.denyphotoalbums
 Version: 1.2.0
@@ -358,24 +268,6 @@ Sponsor: Jan
 
 Package: com.Ps666666.qqnotiavatar
 Version: 1.2-2
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 204
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64e/com.ps666666.qqnotiavatar_1.2-2_iphoneos-arm64e.deb
-Size: 36048
-MD5sum: d7e4edce5afe02bc046d8464e6bb4118
-SHA1: 62ded765cfca7dff78be3012cbf3dfe84367f9fb
-SHA256: 84ccd3263024fe2e70f385579c414e3097dd6fa81a15ee56339b427a5e3286d0
-Section: iphoneos-arm64e
-Description: 使用iOS15+API显示QQ应用程序的通知头像
-Author: Netskao
-Name: QQNotiAvatar (rootless)
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar.json
-
-Package: com.Ps666666.qqnotiavatar
-Version: 1.2-2
 Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 204
@@ -393,23 +285,6 @@ Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar
 
 Package: com.Ps666666.safarix
 Version: 1.3.0
-Architecture: iphoneos-arm64e
-Maintainer: 0xkuj
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Conflicts: com.0xkuj.safarix
-Filename: ./debs/iphoneos-arm64e/com.ps666666.safarix_1.3.0_iphoneos-arm64e.deb
-Size: 302260
-MD5sum: 7ea9dadce91ab1a8ce69f2552b5e2789
-SHA1: 06b28c5c1b61f5ec0c135db8874cc53760eb4867
-SHA256: fa52584a67333f377d9463eefc449743cad96fccdec4cd7170441d62d38bbf0c
-Section: iphoneos-arm64e
-Description: Safari 浏览器多功能增强插件！
-Author: 0xkuj
-Name: SafariX (rootless)
-
-Package: com.Ps666666.safarix
-Version: 1.3.0
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
@@ -423,23 +298,6 @@ Section: iphoneos-arm64
 Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
 Name: SafariX (rootless)
-
-Package: com.Ps666666.satella
-Version: 1.9.0-1
-Architecture: iphoneos-arm64e
-Maintainer: CyPwn
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
-Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
-Filename: ./debs/iphoneos-arm64e/com.ps666666.satella_1.9.0-1_iphoneos-arm64e.deb
-Size: 94522
-MD5sum: 83aa5fafcf5f0b92bdae98dd78bf75b4
-SHA1: d48f9580c8ea008e992781a0584bb6dffcc9ec59
-SHA256: e13dee110f80d32613a89563ffb6813586c43f561a25eeae80597768a9479989
-Section: 小玩具
-Description: 牛X的应用内购买破解器，已包含简体中文包。
-Author: Paisseon
-Name: Satella 中文版(rootless)
 
 Package: com.Ps666666.satella
 Version: 1.9.0-1
@@ -556,24 +414,6 @@ Name: 微信净化红包版 (rootless)
 
 Package: com.Ps666666.wechatnotiavatar
 Version: 1.2-5
-Architecture: iphoneos-arm64e
-Maintainer: Netskao
-Installed-Size: 2336
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64e/com.ps666666.wechatnotiavatar_1.2-5_iphoneos-arm64e.deb
-Size: 1470416
-MD5sum: 8625fd495d6de30da2c018d82aa16910
-SHA1: 8e6df7e3e41d3abd3dfee6aa31d0830351ac6533
-SHA256: feff3d39fcd2ad4875d20f0ff4dbe35d3a5dab199caa73216ae2cfdd0858e2b7
-Section: iphoneos-arm64e
-Description: 使用iOS15+API显示微信应用程序的通知头像
-Author: Netskao
-Name: WeChatNotiAvatar (rootless)
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
-
-Package: com.Ps666666.wechatnotiavatar
-Version: 1.2-5
 Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 2336
@@ -588,26 +428,6 @@ Description: 使用iOS15+API显示微信应用程序的通知头像
 Author: Netskao
 Name: WeChatNotiAvatar (rootless)
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
-
-Package: com.Ps666666.zetsu
-Version: 1.5
-Architecture: iphoneos-arm64e
-Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
-Installed-Size: 11004
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
-Filename: ./debs/iphoneos-arm64e/com.ps666666.zetsu_1.5_iphoneos-arm64e-1.deb
-Size: 19769614
-MD5sum: 60c04d2f33abcb686021dc39643654ed
-SHA1: 6ab9a2f25dfe39e87f8e24c922d9e34c020d5368
-SHA256: 4b03fbbcb5e0e4317fb17839a6add242d98af96a3cbb15060d34827887efd4ae
-Section: iphoneos-arm64e
-Description: Zetsu一款非常不错的分屏插件
-Tag: compatible_min::ios15.0
-Author: Dcsyhi <dcsyhi1998@gmail.com>
-Depiction: https://chariz.com/get/zetsu
-Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
-Name: Zetsu (rootless)
 
 Package: com.Ps666666.zetsu
 Version: 1.5
@@ -678,317 +498,4 @@ Description: Anitime动画动漫人物作为你的时钟数字
 Author: yan
 Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
 Name: Anitime (rootless)
-
-Package: com.be-huge.floating-view
-Version: 1.5.6-3
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3176
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/iphoneos-arm64e/com.be-huge.floating-view_1.5.6-3_iphoneos-arm64e.deb
-Size: 1652320
-MD5sum: 145f9e4e409a67f01e973b4fb2054935
-SHA1: 245e50a8cf5c9322b6d2a5a0215657a0a2522345
-SHA256: 190ac49f236d1e838bdaf7c48bc8d5cf92d29fcf0adc65ada7c28153178652b6
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
-Package: com.be-huge.tie-gesture-advance
-Version: 1.0.9-1
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 1256
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/iphoneos-arm64e/com.be-huge.tie-gesture-advance_1.0.9-1_iphoneos-arm64e.deb
-Size: 313470
-MD5sum: e794f06ea15cde6245b166b665715de2
-SHA1: 7163af69838dd934c440542638e7403befc2eafb
-SHA256: 49686e514a71bcf01778cbe9c54066a4344a938134f6fb070b93d7666aa8cc94
-Section: Tweaks
-Description: 手势插件，一切从简即可。
-Author: be-huge
-Name: TieGesture-rootless(收费版)
-
-Package: com.be-huge.wechat-pop-vc
-Version: 0.0.4
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 232
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/iphoneos-arm64e/com.be-huge.wechat-pop-vc_0.0.4_iphoneos-arm64e.deb
-Size: 28894
-MD5sum: 8a44ad540d3f8bfa31f5e229a5d9fee7
-SHA1: d368bbeda09560a80397a06b47b4d0d9022265f3
-SHA256: 83b2a57016b591fac4e2f040c3724114512ae17a700f31a0894a066b0fa4021b
-Section: Tweaks
-Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
-Author: be-huge
-Name: WeChatPopVC-rootless
-
-Package: com.exile90.icleanerpro
-Version: 7.10.0
-Architecture: iphoneos-arm64e
-Maintainer: Ivano Bilenchi <support@ib-soft.net>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Conflicts: org.altervista.exilecom.icleaner
-Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/iphoneos-arm64e/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
-Size: 2500452
-MD5sum: aa8bf0739428e32d9d50e3ca162b38bb
-SHA1: b0804510aa0817c4391bdfeb801c94838e171c24
-SHA256: 66cebbc011ac1f6b5e036586551faeb29b868c3d681a3693d529fe8874cb939c
-Section: Utilities
-Homepage: http://ib-soft.net/icleaner
-Description: The first real iOS system cleanup and management utility
-Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/Icons/iCleaner.png
-Name: iCleaner Pro
-
-Package: com.jontelang.snapper3
-Version: 1.2.1
-Architecture: iphoneos-arm64e
-Maintainer: Jonathan Winger-lang
-Installed-Size: 4148
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
-Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
-Filename: ./debs/iphoneos-arm64e/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
-Size: 2269678
-MD5sum: 32f10df23db1f7e2cfe1a3a3e9c150bf
-SHA1: dec98cd046429d4050fc4b57edff8b385904784f
-SHA256: b1232f293c261cf6bb857b71eab47b45a24f2dd711b8ece016cce57beec5e5c9
-Section: Tweaks
-Description: Pin screenshots on the screen.
-Author: Jonathan Winger-lang
-Name: Snapper 3
-
-Package: com.lclrc.exacttime
-Version: 2.0.4
-Architecture: iphoneos-arm64e
-Maintainer: SquidForce
-Installed-Size: 1284
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
-Filename: ./debs/iphoneos-arm64e/com.lclrc.exacttime_2.0.4_iphoneos-arm64e-1.deb
-Size: 117136
-MD5sum: f3436757cf9fea72f1ce146c3ca2c7df
-SHA1: 857cf9807a394705d86fba268b0ffbd268171ae6
-SHA256: 21bbcd51ce50d064b3b878bb92c5b7ce5c7df2f29a0de7158127ec66289fcf3e
-Section: Tweaks
-Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。Shows the exact time of notifications, messages, calls and emails, and show remain time of alarms.
-Author: gilshahar7, SquidForce
-Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
-Name: ExactTime - 给个准确时间，OK？
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
-
-Package: com.mrgcgamer.libgcuniversal
-Version: 1.7.0
-Architecture: iphoneos-arm64e
-Maintainer: MrGcGamer
-Installed-Size: 380
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
-Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
-Filename: ./debs/iphoneos-arm64e/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e.deb
-Size: 74474
-MD5sum: 9642a6bd3c1952a2579830f9c2dec058
-SHA1: a4a2062fc0910ecd2b878ec0a64f3a77ce9574d7
-SHA256: a941cffa8700aac04554ff13e1b2da5975f008a5efcf63994d2b1b441d2f7571
-Section: Development
-Description: An awesome library of some sort!!
-Tag: role::developer
-Author: MrGcGamer
-Name: LibGcUniversal
-
-Package: com.mtac.lynxtwo
-Version: 2.5.4
-Architecture: iphoneos-arm64e
-Maintainer: MTAC
-Installed-Size: 2952
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
-Filename: ./debs/iphoneos-arm64e/com.mtac.lynxtwo_2.5.4_iphoneos-arm64e.deb
-Size: 1717116
-MD5sum: fe14b3071a4cfafa18888b4c928c84c7
-SHA1: f13f05700c980d888d2b7bf2e17aa5ca46d1a064
-SHA256: 4d9096da1ce8aa481e7c772373972f604e859304a87f3d306b4705552ef806bc
-Section: Tweaks
-Description: Ultimate iDevice Customization for iOS 14, 15 & 16
-Author: MTAC
-Name: Lynx 2
-
-Package: com.netskao.dumpdecrypter
-Version: 1.5-1
-Architecture: iphoneos-arm64e
-Maintainer: Nets
-Installed-Size: 952
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64e/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64e.deb
-Size: 535416
-MD5sum: ffb67e496ef9e629fc2f4df5b5a55f0a
-SHA1: 95231d57ff46abdb316a96761dd956160595c316
-SHA256: 90a70f4a4f3c1d92d2be7ebfd0d90f6cf3728a0c93521bf62d8337136f51aab1
-Section: Netskao-Tweaks
-Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
-Author: Netskao
-Name: DumpDecrypter
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
-
-Package: com.ps.githubweblegacycompat
-Version: 2.3.6
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 2760
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
-Filename: ./debs/iphoneos-arm64e/com.ps.githubweblegacycompat_2.3.6_iphoneos-arm64e.deb
-Size: 1106678
-MD5sum: dc33b1e3f6eb85e610b6c25af7f4586f
-SHA1: e4f126f19016a3b81018df69cc33e5411cb2cca7
-SHA256: 37914f1ebe32e79d0617dcc5c145a8b4d64e0b24ceb2cc1f6d08a0605ca5c150
-Section: Tweaks
-Description: Makes GitHub website more accessible on iOS < 16.4
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
-Name: GitHubWebLegacyCompat
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
-
-Package: com.ps.polyfills
-Version: 2.10.0
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 608
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexplookbehind (>= 1.2.0)
-Filename: ./debs/iphoneos-arm64e/com.ps.polyfills_2.10.0_iphoneos-arm64e-3.deb
-Size: 92892
-MD5sum: 0c7b3d77203a4d410da2c86b14a617ee
-SHA1: afa9afa9edeb6ac4e817c37c54ab2a9c36443693
-SHA256: 763f81a3e822104ce3973e90baf8e4dbdf8952c7e6f01caf45bfe9c5b5ec846e
-Section: Tweaks
-Description: Injects JavaScript Polyfills to iOS web views.
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
-Name: Polyfills
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
-
-Package: com.ps.polyfillsregexplookbehind
-Version: 1.2.2
-Architecture: iphoneos-arm64e
-Maintainer: PoomSmart
-Installed-Size: 16
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: com.ps.polyfills (>= 2.2.4)
-Filename: ./debs/iphoneos-arm64e/com.ps.polyfillsregexplookbehind_1.2.2_iphoneos-arm64e.deb
-Size: 5784
-MD5sum: cdc036a69a2b62ea91420e341178ccb1
-SHA1: b3d94f4a479a539d8246bb3c8c9bfe165109d50f
-SHA256: 67b93f48ebb5b4ddbd64b685d28813d266640ef7ecd1e976702d33cf220a5d28
-Section: Tweaks
-Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
-Name: RegExp Lookbehind (Polyfills)
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
-
-Package: com.sutuplus.releasefugu15
-Version: 5.9.8-2-1
-Architecture: iphoneos-arm64e
-Maintainer: Carby <super.cat.sutuplus@gmail.com>
-Installed-Size: 1780
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Filename: ./debs/iphoneos-arm64e/com.sutuplus.releasefugu15_5.9.8-2-1_iphoneos-arm64e.deb
-Size: 658310
-MD5sum: 4607112a1b62d17551a370675fba4084
-SHA1: bf5430fcff8edda4afbbb225ffc6acde1326262c
-SHA256: 847081e2a5722ea045516570b49bd6bff8d86d342da1c7867a769d06a59de0c6
-Section: 软件增强
-Description: 本插件安装包来自苏兔源
-Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
-Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
-Name: 酸果 - Rootless
-
-Package: com.tencent.themebox
-Version: 2.0.9
-Architecture: iphoneos-arm64e
-Maintainer: admin@25mao.com
-Installed-Size: 9516
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/iphoneos-arm64e/com.tencent.themebox_2.0.9_iphoneos-arm64e.deb
-Size: 11145804
-MD5sum: 4147fb19e40c670fac5b28570ee6ad51
-SHA1: 6e0212ea382acccc1e15710f8bef7d8ddc5d9ee4
-SHA256: b4fd0ef5f853b815108a46e37a0c1c8a365c7e7317a99cebf5a8e058346d1806
-Section: 微信插件
-Description: 微信主题盒子
-Author: 懒猫
-Name: 主题盒子-无根
-
-Package: com.xyaman.tako
-Version: 3.5.2.1
-Architecture: iphoneos-arm64e
-Maintainer: b4db1r3
-Installed-Size: 768
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
-Filename: ./debs/iphoneos-arm64e/com.xyaman.tako_3.5.2.1_iphoneos-arm64e.deb
-Size: 127706
-MD5sum: 4a2ee1b9ff26720ef008c11b4f7f37a1
-SHA1: f201ecc3f0bbe188232709ea287f609e8606215d
-SHA256: bbf7a08d83cd0057945fc58a02db90b2e67cef56a906130e328cdff40b9933f3
-Section: Tweaks
-Description: Notification priority hub tweak.
-Author: Xyaman & b4db1r3
-Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
-Name: Tako ( iOS 15-16 )
-
-Package: com.yourepo.themepro.themepro-316-rootless
-Version: 3.9.1
-Architecture: iphoneos-arm64e
-Maintainer: MustangYM <MustangYM@yeah.net>
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate
-Conflicts: ThemePro
-Replaces: ThemePro
-Filename: ./debs/iphoneos-arm64e/com.yourepo.themepro.themepro-316-rootless_3.9.1_iphoneos-arm64e.deb
-Size: 17404656
-MD5sum: 8e892c7a8180bf9d3b43cb1e82e0597f
-SHA1: 4ef389a7a19754517a79a28720ec9404e0641639
-SHA256: 4fe47e103cf4d4da2a795ad3cbdc674a69082ecf1d2e1bbb4bf42378b0df3ded
-Section: Tweaks
-Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
-Author: MustangYM <mm13299079785@gmail.com>
-Name: ThemePro-3.9.1-Rootless
-
-Package: me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64e
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
-Filename: ./debs/iphoneos-arm64e/me.lau.atria_1.4.1_iphoneos-arm64e.deb
-Size: 274482
-MD5sum: 1662f94d2b805561739e25404a9622d7
-SHA1: 1cfdfbfedc66b599d3026af7e449cd12c4d2ce99
-SHA256: 5f73a5626fda2bc7251a549483b95307ee54207b2c91cd3654f48f304e288757
-Section: Tweaks
-Description: A proper homescreen layout editor for iOS 13-16
-Tag: compatible_min::ios13.0
-Author: ren7995 <lau7995ren@gmail.com>
-Depiction: https://chariz.com/get/atria
-Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
-Name: Atria
 
