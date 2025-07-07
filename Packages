@@ -1,3 +1,22 @@
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 6854408
+MD5sum: 2296784215b62820629f2025d36d994e
+SHA1: 23ad784b792daaf204446e0df79b4d090eab0139
+SHA256: 238f5c4494efe5d70d4a30da3d574e1a1b44621f71bed0590dc89a51ae162511
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
 Package: com.Ps666666.appdatas
 Version: 1.4.4
 Architecture: iphoneos-arm64
@@ -268,6 +287,24 @@ Sponsor: Jan
 
 Package: com.Ps666666.qqnotiavatar
 Version: 1.2-2
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 204
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.ps666666.qqnotiavatar_1.2-2_iphoneos-arm64e.deb
+Size: 36048
+MD5sum: d7e4edce5afe02bc046d8464e6bb4118
+SHA1: 62ded765cfca7dff78be3012cbf3dfe84367f9fb
+SHA256: 84ccd3263024fe2e70f385579c414e3097dd6fa81a15ee56339b427a5e3286d0
+Section: iphoneos-arm64e
+Description: 使用iOS15+API显示QQ应用程序的通知头像
+Author: Netskao
+Name: QQNotiAvatar (rootless)
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar.json
+
+Package: com.Ps666666.qqnotiavatar
+Version: 1.2-2
 Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 204
@@ -414,6 +451,24 @@ Name: 微信净化红包版 (rootless)
 
 Package: com.Ps666666.wechatnotiavatar
 Version: 1.2-5
+Architecture: iphoneos-arm64e
+Maintainer: Netskao
+Installed-Size: 2336
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.ps666666.wechatnotiavatar_1.2-5_iphoneos-arm64e.deb
+Size: 1470416
+MD5sum: 8625fd495d6de30da2c018d82aa16910
+SHA1: 8e6df7e3e41d3abd3dfee6aa31d0830351ac6533
+SHA256: feff3d39fcd2ad4875d20f0ff4dbe35d3a5dab199caa73216ae2cfdd0858e2b7
+Section: iphoneos-arm64e
+Description: 使用iOS15+API显示微信应用程序的通知头像
+Author: Netskao
+Name: WeChatNotiAvatar (rootless)
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
+
+Package: com.Ps666666.wechatnotiavatar
+Version: 1.2-5
 Architecture: iphoneos-arm64
 Maintainer: Netskao
 Installed-Size: 2336
@@ -498,4 +553,59 @@ Description: Anitime动画动漫人物作为你的时钟数字
 Author: yan
 Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
 Name: Anitime (rootless)
+
+Package: com.be-huge.tie-gesture-advance
+Version: 1.0.9-1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 1256
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.be-huge.tie-gesture-advance_1.0.9-1_iphoneos-arm64e.deb
+Size: 313470
+MD5sum: e794f06ea15cde6245b166b665715de2
+SHA1: 7163af69838dd934c440542638e7403befc2eafb
+SHA256: 49686e514a71bcf01778cbe9c54066a4344a938134f6fb070b93d7666aa8cc94
+Section: Tweaks
+Description: 手势插件，一切从简即可。
+Author: be-huge
+Name: TieGesture-rootless(收费版)
+
+Package: com.be-huge.wechat-pop-vc
+Version: 0.0.4
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.be-huge.wechat-pop-vc_0.0.4_iphoneos-arm64e.deb
+Size: 28894
+MD5sum: 8a44ad540d3f8bfa31f5e229a5d9fee7
+SHA1: d368bbeda09560a80397a06b47b4d0d9022265f3
+SHA256: 83b2a57016b591fac4e2f040c3724114512ae17a700f31a0894a066b0fa4021b
+Section: Tweaks
+Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
+Author: be-huge
+Name: WeChatPopVC-rootless
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro
+Filename: ./debs/iphoneos-arm64e/me.lau.atria_1.4.1_iphoneos-arm64e.deb
+Size: 274482
+MD5sum: 1662f94d2b805561739e25404a9622d7
+SHA1: 1cfdfbfedc66b599d3026af7e449cd12c4d2ce99
+SHA256: 5f73a5626fda2bc7251a549483b95307ee54207b2c91cd3654f48f304e288757
+Section: Tweaks
+Description: A proper homescreen layout editor for iOS 13-16
+Tag: compatible_min::ios13.0
+Author: ren7995 <lau7995ren@gmail.com>
+Depiction: https://chariz.com/get/atria
+Icon: https://img.chariz.cloud/icon/atria/icon@3x.png
+Name: Atria
 
