@@ -38,6 +38,22 @@ Name: AppData (rootless)
 
 Package: com.Ps666666.aria
 Version: 0.9.8.1
+Architecture: iphoneos-arm64e
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/iphoneos-arm64e/com.ps666666.aria_0.9.8.1_iphoneos-arm64e.deb
+Size: 110272
+MD5sum: 1061d2f677c5f3da9cb10f3267159ad2
+SHA1: b78684b69a9e3f71c10387e40c74567d3e11527f
+SHA256: c5227c1950ca89c0814676de4c43d16391f6397f7d6b7388f9bcea3bb97ae7b1
+Section: iphoneos-arm64e
+Description: Aria自定义控制中心背景(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
+Author: Luki
+Name: Aria (rootless)
+Sponsor: Luki
+
+Package: com.Ps666666.aria
+Version: 0.9.8.1
 Architecture: iphoneos-arm64
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
 Filename: ./debs/iphoneos-arm64/Aria控制中心背景图-Rootless.deb
@@ -67,6 +83,42 @@ Description: 阻止应用程序创建自己的相册
 Author: Netskao
 Name: 阻止应用程序创建自己的相册 (rootless)
 Sponsor: Netskao
+
+Package: com.Ps666666.ccplus
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Ps
+Installed-Size: 132
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64e/com.Ps666666.ccplus_1.1_iphoneos-arm64e.deb
+Size: 5768096
+MD5sum: 47793574ce614cbd44695e32875ac09c
+SHA1: 8b3c37da699f600297ab16263cc7c4863d9c11c3
+SHA256: f78d76e1483f8eb6a21b41d8bd47ad1a65503d0c58d1ae15c8f999fe1fdba47e
+Section: iphoneos-arm64e
+Description: 合集控制中心自用
+Author: Ps
+Name: CCSwitchData (rootless)
+Sponsor: Ps
+
+Package: com.Ps666666.ccpower
+Version: 1.9-4
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Conflicts: netskao.ccpower-rootless
+Provides: netskao.ccpower-rootless (=1.9-4)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.ccpower_1.9-4_iphoneos-arm64e.deb
+Size: 1407510
+MD5sum: f4ea413aa0ac4bac92aedc7bdbd63aa3
+SHA1: d6edab6a89027fec4bc024b10efb507eef4455d8
+SHA256: 43a8f3b22d9c38199784d7261021c54fe865c1a4655b9b1e42ac07ab89ddc9d0
+Section: iphoneos-arm64e
+Description: ccpower控制中心模块功能关机重启注销等功能
+Author: Netskao
+Name: CCPower (rootless)
 
 Package: com.Ps666666.ccpower
 Version: 1.9-4
@@ -135,6 +187,25 @@ Description: 解锁专业版，插件无任何弹窗！由搬运工源iOSign免�
 Author: iOSign
 Name: CPUDasher破解 (rootless)
 Sponsor: 搬运工
+
+Package: com.Ps666666.denyphotoalbums
+Version: 1.2.0
+Architecture: iphoneos-arm64e
+Installed-Size: 709
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/iphoneos-arm64e/com.ps666666.denyphotoalbums_1.2.0_iphoneos-arm64e.deb
+Size: 87562
+MD5sum: 3c07b86fa96f75b53653d643901b088b
+SHA1: e45bb12be1c7ad0917e21fa2585910edb2f3d964
+SHA256: 81c5a80f5ba3e3ad479a22ea37908b4aca025ff9233d11bb0abd52613e0011d4
+Section: iphoneos-arm64e
+Priority: optional
+Description: 相册增强功能
+Author: CydiaGeek
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
+Name: DenyPhotoAlbums (rootless)
 
 Package: com.Ps666666.denyphotoalbums
 Version: 1.2.0
@@ -338,6 +409,23 @@ Name: SafariX (rootless)
 
 Package: com.Ps666666.satella
 Version: 1.9.0-1
+Architecture: iphoneos-arm64e
+Maintainer: CyPwn
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: ./debs/iphoneos-arm64e/com.ps666666.satella_1.9.0-1_iphoneos-arm64e.deb
+Size: 94522
+MD5sum: 83aa5fafcf5f0b92bdae98dd78bf75b4
+SHA1: d48f9580c8ea008e992781a0584bb6dffcc9ec59
+SHA256: e13dee110f80d32613a89563ffb6813586c43f561a25eeae80597768a9479989
+Section: 小玩具
+Description: 牛X的应用内购买破解器，已包含简体中文包。
+Author: Paisseon
+Name: Satella 中文版(rootless)
+
+Package: com.Ps666666.satella
+Version: 1.9.0-1
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
@@ -486,6 +574,26 @@ Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiav
 
 Package: com.Ps666666.zetsu
 Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64e/com.ps666666.zetsu_1.5_iphoneos-arm64e-1.deb
+Size: 19769614
+MD5sum: 60c04d2f33abcb686021dc39643654ed
+SHA1: 6ab9a2f25dfe39e87f8e24c922d9e34c020d5368
+SHA256: 4b03fbbcb5e0e4317fb17839a6add242d98af96a3cbb15060d34827887efd4ae
+Section: iphoneos-arm64e
+Description: Zetsu一款非常不错的分屏插件
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu (rootless)
+
+Package: com.Ps666666.zetsu
+Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
 Installed-Size: 11004
@@ -587,6 +695,155 @@ Section: Tweaks
 Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上一页局限性，提高用户体验。
 Author: be-huge
 Name: WeChatPopVC-rootless
+
+Package: com.exile90.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/iphoneos-arm64e/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2500452
+MD5sum: aa8bf0739428e32d9d50e3ca162b38bb
+SHA1: b0804510aa0817c4391bdfeb801c94838e171c24
+SHA256: 66cebbc011ac1f6b5e036586551faeb29b868c3d681a3693d529fe8874cb939c
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: https://raw.githubusercontent.com/ichitaso/file/refs/heads/main/images/Icons/iCleaner.png
+Name: iCleaner Pro
+
+Package: com.jontelang.snapper3
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: Jonathan Winger-lang
+Installed-Size: 4148
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
+Filename: ./debs/iphoneos-arm64e/com.jontelang.snapper3_1.2.1_iphoneos-arm64e.deb
+Size: 2269678
+MD5sum: 32f10df23db1f7e2cfe1a3a3e9c150bf
+SHA1: dec98cd046429d4050fc4b57edff8b385904784f
+SHA256: b1232f293c261cf6bb857b71eab47b45a24f2dd711b8ece016cce57beec5e5c9
+Section: Tweaks
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang
+Name: Snapper 3
+
+Package: com.lclrc.exacttime
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 1284
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.gilshahar7.exacttimemail, com.gilshahar7.exacttimephone, com.gilshahar7.exacttimemessages
+Filename: ./debs/iphoneos-arm64e/com.lclrc.exacttime_2.0.4_iphoneos-arm64e-1.deb
+Size: 117136
+MD5sum: f3436757cf9fea72f1ce146c3ca2c7df
+SHA1: 857cf9807a394705d86fba268b0ffbd268171ae6
+SHA256: 21bbcd51ce50d064b3b878bb92c5b7ce5c7df2f29a0de7158127ec66289fcf3e
+Section: Tweaks
+Description: 在通知、信息、电话、邮箱中显示准确时间，闹钟中显示剩余时间。Shows the exact time of notifications, messages, calls and emails, and show remain time of alarms.
+Author: gilshahar7, SquidForce
+Icon: file:///var/jb/Library/PreferenceBundles/ExactTimeprefs.bundle/ExactTime@3x.png
+Name: ExactTime - 给个准确时间，OK？
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.exacttime/depiction.json
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Installed-Size: 380
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Filename: ./debs/iphoneos-arm64e/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64e.deb
+Size: 74474
+MD5sum: 9642a6bd3c1952a2579830f9c2dec058
+SHA1: a4a2062fc0910ecd2b878ec0a64f3a77ce9574d7
+SHA256: a941cffa8700aac04554ff13e1b2da5975f008a5efcf63994d2b1b441d2f7571
+Section: Development
+Description: An awesome library of some sort!!
+Tag: role::developer
+Author: MrGcGamer
+Name: LibGcUniversal
+
+Package: com.mtac.lynxtwo
+Version: 2.5.4
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 2952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Filename: ./debs/iphoneos-arm64e/com.mtac.lynxtwo_2.5.4_iphoneos-arm64e.deb
+Size: 1717116
+MD5sum: fe14b3071a4cfafa18888b4c928c84c7
+SHA1: f13f05700c980d888d2b7bf2e17aa5ca46d1a064
+SHA256: 4d9096da1ce8aa481e7c772373972f604e859304a87f3d306b4705552ef806bc
+Section: Tweaks
+Description: Ultimate iDevice Customization for iOS 14, 15 & 16
+Author: MTAC
+Name: Lynx 2
+
+Package: com.netskao.dumpdecrypter
+Version: 1.5-1
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 952
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.netskao.dumpdecrypter_1.5-1_iphoneos-arm64e.deb
+Size: 535416
+MD5sum: ffb67e496ef9e629fc2f4df5b5a55f0a
+SHA1: 95231d57ff46abdb316a96761dd956160595c316
+SHA256: 90a70f4a4f3c1d92d2be7ebfd0d90f6cf3728a0c93521bf62d8337136f51aab1
+Section: Netskao-Tweaks
+Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
+Author: Netskao
+Name: DumpDecrypter
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
+
+Package: com.xyaman.tako
+Version: 3.5.2.1
+Architecture: iphoneos-arm64e
+Maintainer: b4db1r3
+Installed-Size: 768
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16),com.mrgcgamer.libgcuniversal
+Filename: ./debs/iphoneos-arm64e/com.xyaman.tako_3.5.2.1_iphoneos-arm64e.deb
+Size: 127706
+MD5sum: 4a2ee1b9ff26720ef008c11b4f7f37a1
+SHA1: f201ecc3f0bbe188232709ea287f609e8606215d
+SHA256: bbf7a08d83cd0057945fc58a02db90b2e67cef56a906130e328cdff40b9933f3
+Section: Tweaks
+Description: Notification priority hub tweak.
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako ( iOS 15-16 )
+
+Package: com.yourepo.themepro.themepro-316-rootless
+Version: 3.9.1
+Architecture: iphoneos-arm64e
+Maintainer: MustangYM <MustangYM@yeah.net>
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Conflicts: ThemePro
+Replaces: ThemePro
+Filename: ./debs/iphoneos-arm64e/com.yourepo.themepro.themepro-316-rootless_3.9.1_iphoneos-arm64e.deb
+Size: 17404656
+MD5sum: 8e892c7a8180bf9d3b43cb1e82e0597f
+SHA1: 4ef389a7a19754517a79a28720ec9404e0641639
+SHA256: 4fe47e103cf4d4da2a795ad3cbdc674a69082ecf1d2e1bbb4bf42378b0df3ded
+Section: Tweaks
+Description: 由ThemePro团队开发,用于加载微信美化主题,安装完成重启微信生效!
+Author: MustangYM <mm13299079785@gmail.com>
+Name: ThemePro-3.9.1-Rootless
 
 Package: me.lau.atria
 Version: 1.4.1
