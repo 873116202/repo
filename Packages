@@ -393,6 +393,23 @@ Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar
 
 Package: com.Ps666666.safarix
 Version: 1.3.0
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.0xkuj.safarix
+Filename: ./debs/iphoneos-arm64e/com.ps666666.safarix_1.3.0_iphoneos-arm64e.deb
+Size: 302260
+MD5sum: 7ea9dadce91ab1a8ce69f2552b5e2789
+SHA1: 06b28c5c1b61f5ec0c135db8874cc53760eb4867
+SHA256: fa52584a67333f377d9463eefc449743cad96fccdec4cd7170441d62d38bbf0c
+Section: iphoneos-arm64e
+Description: Safari 浏览器多功能增强插件！
+Author: 0xkuj
+Name: SafariX (rootless)
+
+Package: com.Ps666666.safarix
+Version: 1.3.0
 Architecture: iphoneos-arm64
 Maintainer: 0xkuj
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
@@ -662,6 +679,23 @@ Author: yan
 Icon: https://yandevelop.github.io/assets/icons/anitime/icon.png
 Name: Anitime (rootless)
 
+Package: com.be-huge.floating-view
+Version: 1.5.6-3
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3176
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.be-huge.floating-view_1.5.6-3_iphoneos-arm64e.deb
+Size: 1652320
+MD5sum: 145f9e4e409a67f01e973b4fb2054935
+SHA1: 245e50a8cf5c9322b6d2a5a0215657a0a2522345
+SHA256: 190ac49f236d1e838bdaf7c48bc8d5cf92d29fcf0adc65ada7c28153178652b6
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.be-huge.tie-gesture-advance
 Version: 1.0.9-1
 Architecture: iphoneos-arm64e
@@ -808,6 +842,98 @@ Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
 Author: Netskao
 Name: DumpDecrypter
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
+
+Package: com.ps.githubweblegacycompat
+Version: 2.3.6
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 2760
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), firmware (<< 16.4), com.ps.polyfills (>= 2.6.0)
+Filename: ./debs/iphoneos-arm64e/com.ps.githubweblegacycompat_2.3.6_iphoneos-arm64e.deb
+Size: 1106678
+MD5sum: dc33b1e3f6eb85e610b6c25af7f4586f
+SHA1: e4f126f19016a3b81018df69cc33e5411cb2cca7
+SHA256: 37914f1ebe32e79d0617dcc5c145a8b4d64e0b24ceb2cc1f6d08a0605ca5c150
+Section: Tweaks
+Description: Makes GitHub website more accessible on iOS < 16.4
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/githubweblegacycompat.html
+Name: GitHubWebLegacyCompat
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/githubweblegacycompat.json
+
+Package: com.ps.polyfills
+Version: 2.10.0
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 608
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 8.0), preferenceloader, com.ps.polyfillsregexplookbehind (>= 1.2.0)
+Filename: ./debs/iphoneos-arm64e/com.ps.polyfills_2.10.0_iphoneos-arm64e-3.deb
+Size: 92892
+MD5sum: 0c7b3d77203a4d410da2c86b14a617ee
+SHA1: afa9afa9edeb6ac4e817c37c54ab2a9c36443693
+SHA256: 763f81a3e822104ce3973e90baf8e4dbdf8952c7e6f01caf45bfe9c5b5ec846e
+Section: Tweaks
+Description: Injects JavaScript Polyfills to iOS web views.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfills.html
+Name: Polyfills
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfills.json
+
+Package: com.ps.polyfillsregexplookbehind
+Version: 1.2.2
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 16
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.ps.polyfills (>= 2.2.4)
+Filename: ./debs/iphoneos-arm64e/com.ps.polyfillsregexplookbehind_1.2.2_iphoneos-arm64e.deb
+Size: 5784
+MD5sum: cdc036a69a2b62ea91420e341178ccb1
+SHA1: b3d94f4a479a539d8246bb3c8c9bfe165109d50f
+SHA256: 67b93f48ebb5b4ddbd64b685d28813d266640ef7ecd1e976702d33cf220a5d28
+Section: Tweaks
+Description: Polyfills for RegExp lookbehind assertions in JavaScript (iOS < 16.4).
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind.html
+Name: RegExp Lookbehind (Polyfills)
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
+
+Package: com.sutuplus.releasefugu15
+Version: 5.9.8-2-1
+Architecture: iphoneos-arm64e
+Maintainer: Carby <super.cat.sutuplus@gmail.com>
+Installed-Size: 1780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.sutuplus.releasefugu15_5.9.8-2-1_iphoneos-arm64e.deb
+Size: 658310
+MD5sum: 4607112a1b62d17551a370675fba4084
+SHA1: bf5430fcff8edda4afbbb225ffc6acde1326262c
+SHA256: 847081e2a5722ea045516570b49bd6bff8d86d342da1c7867a769d06a59de0c6
+Section: 软件增强
+Description: 本插件安装包来自苏兔源
+Author: 公众号：苏兔（bysutu） <super.cat.sutuplus@gmail.com>
+Depiction: http://apt.sutuplus.com/pkg/com.sutuplus.release
+Name: 酸果 - Rootless
+
+Package: com.tencent.themebox
+Version: 2.0.9
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Installed-Size: 9516
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64e/com.tencent.themebox_2.0.9_iphoneos-arm64e.deb
+Size: 11145804
+MD5sum: 4147fb19e40c670fac5b28570ee6ad51
+SHA1: 6e0212ea382acccc1e15710f8bef7d8ddc5d9ee4
+SHA256: b4fd0ef5f853b815108a46e37a0c1c8a365c7e7317a99cebf5a8e058346d1806
+Section: 微信插件
+Description: 微信主题盒子
+Author: 懒猫
+Name: 主题盒子-无根
 
 Package: com.xyaman.tako
 Version: 3.5.2.1
