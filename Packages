@@ -572,6 +572,23 @@ Description: 手势插件，一切从简即可。
 Author: be-huge
 Name: TieGesture
 
+Package: com.Ps666666.vitreux
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/com.Ps666666.vitreux_1.1_iphoneos-arm64 (1).deb
+Size: 5589240
+MD5sum: c181091bb00efb365b6be90065f3bcb4
+SHA1: 60e6ae90d0192c909fc7baecb9718a7a5dc543db
+SHA256: 665c3e9fc3b47aea7f154b4170bf719ccaccf7041785cbd72a3503fcb17f2d63
+Section: 小玩具
+Description: iOS26 液态玻璃效果
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux (rootless)
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
+
 Package: com.Ps666666.wcpureextension
 Version: 4.2-6
 Architecture: iphoneos-arm64
