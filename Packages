@@ -84,6 +84,21 @@ Author: Luki
 Name: Aria (rootless)
 Sponsor: Luki
 
+Package: com.Ps666666.badgebreathing
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Phuc Do
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64/com.Ps666666.badgebreathing_0.0.1_iphoneos-arm64.deb
+Size: 4136
+MD5sum: 93c8f55b3eb5158d347a711c5792f4a7
+SHA1: 1b2b077950d8c4ee24c4070855795173bd34e916
+SHA256: d611e9fdde7a2501472ac748b75e6ad4b324bd365b2376b1c1be06ed2995567e
+Section: 小玩具
+Description: 让角标动起来
+Author: Phuc Do
+Name: Badge Breathing (rootless)
+
 Package: com.Ps666666.blockappscreatealbum
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -373,6 +388,21 @@ Author: Jan
 Name: JanWeChat (rootless)
 Sponsor: Jan
 
+Package: com.Ps666666.maskblurborder
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Phuc Do
+Filename: ./debs/iphoneos-arm64/com.Ps666666.maskblurborder_1.0_iphoneos-arm64.deb
+Size: 74248
+MD5sum: 9ac97709315a62f3136dd0bc5ebdbdf2
+SHA1: fdb0918006a19bc80b75720eb54f38ba9b7e5e80
+SHA256: 5a3da709559aec02fca4b01441d9bb0d18ae5107d96e57bd041cddd46a67e705
+Section: Mask & AE
+Description: 玻璃遮罩个人喜欢的需要snowboard加载
+Author: Phuc Do
+Icon: https://dobabaophuc1706.github.io/repo/package/MaskBlurBorder/icon.png
+Name: 玻璃遮罩 (rootless)
+
 Package: com.Ps666666.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64e
@@ -584,6 +614,23 @@ SHA1: 60e6ae90d0192c909fc7baecb9718a7a5dc543db
 SHA256: 665c3e9fc3b47aea7f154b4170bf719ccaccf7041785cbd72a3503fcb17f2d63
 Section: 小玩具
 Description: iOS26 液态玻璃效果
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux (rootless)
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
+
+Package: com.Ps666666.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: MTAC
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64/com.Ps666666.vitreux_1.3_iphoneos-arm64.deb
+Size: 5922760
+MD5sum: 1b76bf1142d8c34fe2ca885146efd97b
+SHA1: 00e487007a23a26b22110cc3b605f59c812d0264
+SHA256: 5895ff02606a027317403d9b2db72b8a29e87a1b174250e583485c7f2dac8636
+Section: 小玩具
+Description: 模仿iOS26然后旧版本系统也有玻璃效果
 Author: MTAC
 Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
 Name: Vitreux (rootless)
