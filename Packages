@@ -831,23 +831,6 @@ Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上�
 Author: be-huge
 Name: WeChatPopVC(RootHide)
 
-Package: com.dao.classicfolders3
-Version: 3.2
-Architecture: iphoneos-arm64
-Maintainer: sini921 & daodao
-Depends: mobilesubstrate, preferenceloader
-Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
-Filename: ./debs/iphoneos-arm64/com.ps666666.classicfolders3_3.2_iphoneos-arm64_1.deb
-Size: 2869868
-MD5sum: 07a3f2edd9f37faa0d853ea3c73a8b66
-SHA1: 3a833aaf011c2e965fcc164a6afb63bb774dfa0d
-SHA256: 57eb4e7e8f6fca969e004e2f47b6a55d4078f9c3b8f33621e1569e2e6e7b28bc
-Section: 嗨-工具
-Description: CoolStar的经典文件夹3，基于开源定制。(备份)
-Author: CoolStar & Lizynz & sini921 & daodao
-Name: ClassicFolders 3(rootless)
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
-
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
