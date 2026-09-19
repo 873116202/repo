@@ -998,6 +998,23 @@ Depiction: https://poomsmart.github.io/repo/depictions/polyfillsregexplookbehind
 Name: RegExp Lookbehind (Polyfills)
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/polyfillsregexplookbehind.json
 
+Package: com.ps666666.classicfolders3
+Version: 3.2
+Architecture: iphoneos-arm64
+Maintainer: sini921 & daodao
+Depends: mobilesubstrate, preferenceloader
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+Filename: ./debs/iphoneos-arm64/com.ps666666.classicfolders3_3.2_iphoneos-arm64.deb
+Size: 2869892
+MD5sum: 4ca49811c3c480fb12defeb0d4e2edd7
+SHA1: b2d44b3fe5e6d280615c7e7f6a6107d018e6f711
+SHA256: 788c7ae364275010714e778b9325abb2e712255fa6ff582aed911a1f2f40b852
+Section: 嗨-工具
+Description: CoolStar的经典文件夹3，基于开源定制。(备份)
+Author: CoolStar & Lizynz & sini921 & daodao
+Name: ClassicFolders 3(rootless)
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
+
 Package: com.ps666666.speedster
 Version: 2.2.3
 Architecture: iphoneos-arm64
