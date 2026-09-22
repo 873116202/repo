@@ -1015,6 +1015,39 @@ Author: CoolStar & Lizynz & sini921 & daodao
 Name: ClassicFolders 3(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
+Package: com.ps666666.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3360
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/com.ps666666.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 662988
+MD5sum: 53a206ac2935ef72c77dc572b559221d
+SHA1: 48370916c09aac61948c66e68cb272542a6b5bbc
+SHA256: 72a3fbee8c6736c750f6739f400a442bca27ef203530d4c34397057126ebf297
+Section: iphoneos-arm64
+Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
+Author: be-huge
+Name: floatingView
+
+Package: com.ps666666.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 663772
+MD5sum: bfe2c6578ff7507b1f27550841cee71a
+SHA1: 86f004fd110db0931e4e26b3fb2980b009cfd245
+SHA256: 497dd972775898ad5e4ce7c750d355f3a068f14022841086fd837a18fbaf782e
+Section: iphoneos-arm64e
+Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
+Author: be-huge
+Name: floatingView
+
 Package: com.ps666666.speedster
 Version: 2.2.3
 Architecture: iphoneos-arm64
