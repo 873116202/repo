@@ -1016,6 +1016,22 @@ Name: ClassicFolders 3(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
 Package: com.ps666666.floating-view
+Version: 1.6.0-1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3136
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/com.ps666666.floating-view_1.6.0-1_iphoneos-arm64.deb
+Size: 616008
+MD5sum: 49ae2c72153b276757479be8471d751f
+SHA1: fba17b1eb436bf097a7cbac077dc944b3f232875
+SHA256: 022bedf050cabd21fd12c181dbeb1429d82e31657d7ba022f888e1fd5ffb4770
+Section: iphoneos-arm64
+Description: 分屏，不必太复杂，一切从简即可。(移除设备授权，此版本可以与外部插件（灵动岛插件）能直接调用直达通知)
+Author: be-huge
+Name: floatingView
+
+Package: com.ps666666.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64
 Maintainer: be-huge
