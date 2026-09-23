@@ -55,21 +55,6 @@ Name: AppData (rootless)
 
 Package: com.Ps666666.aria
 Version: 0.9.8.1
-Architecture: iphoneos-arm64
-Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
-Filename: ./debs/iphoneos-arm64/Aria控制中心背景图-Rootless.deb
-Size: 93276
-MD5sum: e962cb8811c1eebf27d38ec780018ddb
-SHA1: 2bf27256ac038f8650a21c061a5123f23c541805
-SHA256: 85e35f65782683b2c79d51f1ce574f499b0649dfa0419139051aa6eba3e340ed
-Section: iphoneos-arm64
-Description: Aria自定义控制中心背景(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
-Author: Luki
-Name: Aria (rootless)
-Sponsor: Luki
-
-Package: com.Ps666666.aria
-Version: 0.9.8.1
 Architecture: iphoneos-arm64e
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
@@ -82,6 +67,21 @@ Section: iphoneos-arm64e
 Description: Aria自定义控制中心背景(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
 Author: Luki
 Name: Aria (RootHide)
+Sponsor: Luki
+
+Package: com.Ps666666.aria
+Version: 0.9.8.1
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Filename: ./debs/iphoneos-arm64/Aria控制中心背景图-Rootless.deb
+Size: 93276
+MD5sum: e962cb8811c1eebf27d38ec780018ddb
+SHA1: 2bf27256ac038f8650a21c061a5123f23c541805
+SHA256: 85e35f65782683b2c79d51f1ce574f499b0649dfa0419139051aa6eba3e340ed
+Section: iphoneos-arm64
+Description: Aria自定义控制中心背景(修改控制中心背景图，用第二个Stock就行了)已汉化感谢来了老弟汉化支持，有没有bug自行测试！
+Author: Luki
+Name: Aria (rootless)
 Sponsor: Luki
 
 Package: com.Ps666666.badgebreathing
@@ -136,23 +136,6 @@ Sponsor: Ps
 
 Package: com.Ps666666.ccpower
 Version: 1.9-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
-Conflicts: netskao.ccpower-rootless
-Provides: netskao.ccpower-rootless (=1.9-4)
-Filename: ./debs/iphoneos-arm64/ccpower-Rootless.deb
-Size: 957572
-MD5sum: b97bbc62e2f696baead16d06c06f782e
-SHA1: 41d08b11e6149325e2f24ac37eee42b344bed2ca
-SHA256: 5de92c7f2d62ba93aa4a098b06a0ce477fd7a3efe92f65aa2d2f528669cc517c
-Section: iphoneos-arm64
-Description: ccpower控制中心模块功能关机重启注销等功能
-Author: Netskao
-Name: CCPower (rootless)
-
-Package: com.Ps666666.ccpower
-Version: 1.9-4
 Architecture: iphoneos-arm64e
 Maintainer: Nets
 Pre-Depends: rootless-compat(>= 0.9)
@@ -168,6 +151,23 @@ Section: iphoneos-arm64e
 Description: ccpower控制中心模块功能关机重启注销等功能
 Author: Netskao
 Name: CCPower (RootHide)
+
+Package: com.Ps666666.ccpower
+Version: 1.9-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport (>= 1.3)
+Conflicts: netskao.ccpower-rootless
+Provides: netskao.ccpower-rootless (=1.9-4)
+Filename: ./debs/iphoneos-arm64/ccpower-Rootless.deb
+Size: 957572
+MD5sum: b97bbc62e2f696baead16d06c06f782e
+SHA1: 41d08b11e6149325e2f24ac37eee42b344bed2ca
+SHA256: 5de92c7f2d62ba93aa4a098b06a0ce477fd7a3efe92f65aa2d2f528669cc517c
+Section: iphoneos-arm64
+Description: ccpower控制中心模块功能关机重启注销等功能
+Author: Netskao
+Name: CCPower (rootless)
 
 Package: com.Ps666666.ccswitchdata
 Version: 1.1-4
@@ -222,24 +222,6 @@ Sponsor: 搬运工
 
 Package: com.Ps666666.denyphotoalbums
 Version: 1.2.0
-Architecture: iphoneos-arm64
-Installed-Size: 709
-Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
-Filename: ./debs/iphoneos-arm64/denyphotoalbums相册增强.deb
-Size: 73620
-MD5sum: 59ea98af0f57d34ed9086955b082260e
-SHA1: cfc8ccf572bd107c2bfde752f709f5d37187ea27
-SHA256: 579f63ba187bf4749b9588d09f8c7a55eaf70e981736cea9db8925e1e4b8f43a
-Section: iphoneos-arm64
-Priority: optional
-Description: 相册增强功能
-Author: CydiaGeek
-Dev: lucaluca86
-Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
-Name: DenyPhotoAlbums (rootless)
-
-Package: com.Ps666666.denyphotoalbums
-Version: 1.2.0
 Architecture: iphoneos-arm64e
 Installed-Size: 709
 Pre-Depends: rootless-compat(>= 0.9)
@@ -256,6 +238,24 @@ Author: CydiaGeek
 Dev: lucaluca86
 Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
 Name: DenyPhotoAlbums (RootHide)
+
+Package: com.Ps666666.denyphotoalbums
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Installed-Size: 709
+Depends: mobilesubstrate, firmware (>= 10.0), preferenceloader
+Filename: ./debs/iphoneos-arm64/denyphotoalbums相册增强.deb
+Size: 73620
+MD5sum: 59ea98af0f57d34ed9086955b082260e
+SHA1: cfc8ccf572bd107c2bfde752f709f5d37187ea27
+SHA256: 579f63ba187bf4749b9588d09f8c7a55eaf70e981736cea9db8925e1e4b8f43a
+Section: iphoneos-arm64
+Priority: optional
+Description: 相册增强功能
+Author: CydiaGeek
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/DenyPhotoAlbums.bundle/DenyPhotoAlbums@2x.png
+Name: DenyPhotoAlbums (rootless)
 
 Package: com.Ps666666.fbo
 Version: 0.0.1
@@ -405,23 +405,6 @@ Name: 玻璃遮罩 (rootless)
 
 Package: com.Ps666666.qqnotiavatar
 Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 204
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/qq通知头像.deb
-Size: 25632
-MD5sum: 02428dce832227ccea4b4e7cdf7a03f3
-SHA1: 04643fa87af9779d01d992919fae69d042bea191
-SHA256: c80b207d48dba945e378ab8d33b8d9d66cc3025baa3ba7e4ada51c75587916e1
-Section: iphoneos-arm64
-Description: 使用iOS15+API显示QQ应用程序的通知头像
-Author: Netskao
-Name: QQNotiAvatar (rootless)
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar.json
-
-Package: com.Ps666666.qqnotiavatar
-Version: 1.2-2
 Architecture: iphoneos-arm64e
 Maintainer: Netskao
 Installed-Size: 204
@@ -438,21 +421,22 @@ Author: Netskao
 Name: QQNotiAvatar (RootHide)
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar.json
 
-Package: com.Ps666666.safarix
-Version: 1.3.0
+Package: com.Ps666666.qqnotiavatar
+Version: 1.2-2
 Architecture: iphoneos-arm64
-Maintainer: 0xkuj
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
-Conflicts: com.0xkuj.safarix
-Filename: ./debs/iphoneos-arm64/SafariX-Rootless.deb
-Size: 275368
-MD5sum: a0df8a1aa3f6a220fde70a12ec605566
-SHA1: 71d6cc7496f72b0fa7f6b324496a8a1528d9f835
-SHA256: a4ba82e7f8f867bfdfff33781fce59fb5dc1bf7a38d5179058a50bf929636b59
+Maintainer: Netskao
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/qq通知头像.deb
+Size: 25632
+MD5sum: 02428dce832227ccea4b4e7cdf7a03f3
+SHA1: 04643fa87af9779d01d992919fae69d042bea191
+SHA256: c80b207d48dba945e378ab8d33b8d9d66cc3025baa3ba7e4ada51c75587916e1
 Section: iphoneos-arm64
-Description: Safari 浏览器多功能增强插件！
-Author: 0xkuj
-Name: SafariX (rootless)
+Description: 使用iOS15+API显示QQ应用程序的通知头像
+Author: Netskao
+Name: QQNotiAvatar (rootless)
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.qqnotiavatar.json
 
 Package: com.Ps666666.safarix
 Version: 1.3.0
@@ -471,21 +455,21 @@ Description: Safari 浏览器多功能增强插件！
 Author: 0xkuj
 Name: SafariX (RootHide)
 
-Package: com.Ps666666.satella
-Version: 1.9.0-1
+Package: com.Ps666666.safarix
+Version: 1.3.0
 Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
-Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
-Filename: ./debs/iphoneos-arm64/satella内购破解.deb
-Size: 73504
-MD5sum: f5ead013d87d261366d0d3797010dccd
-SHA1: 45a227e1935eb208c3c03da2dee5c68eacaaa310
-SHA256: 10716e368f1ebc459d6cebbefd512ed6fa8dcc394162fda3f31cd14c7cab7a44
-Section: 小玩具
-Description: 牛X的应用内购买破解器，已包含简体中文包。
-Author: Paisseon
-Name: Satella 中文版(rootless)
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Conflicts: com.0xkuj.safarix
+Filename: ./debs/iphoneos-arm64/SafariX-Rootless.deb
+Size: 275368
+MD5sum: a0df8a1aa3f6a220fde70a12ec605566
+SHA1: 71d6cc7496f72b0fa7f6b324496a8a1528d9f835
+SHA256: a4ba82e7f8f867bfdfff33781fce59fb5dc1bf7a38d5179058a50bf929636b59
+Section: iphoneos-arm64
+Description: Safari 浏览器多功能增强插件！
+Author: 0xkuj
+Name: SafariX (rootless)
 
 Package: com.Ps666666.satella
 Version: 1.9.0-1
@@ -503,6 +487,22 @@ Section: 小玩具
 Description: 牛X的应用内购买破解器，已包含简体中文包。
 Author: Paisseon
 Name: Satella 中文版(RootHide)
+
+Package: com.Ps666666.satella
+Version: 1.9.0-1
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 13.0), preferenceloader, com.opa334.altlist
+Conflicts: xyz.cypwn.satella, emt.paisseon.satella, com.dao.satella.cn
+Filename: ./debs/iphoneos-arm64/satella内购破解.deb
+Size: 73504
+MD5sum: f5ead013d87d261366d0d3797010dccd
+SHA1: 45a227e1935eb208c3c03da2dee5c68eacaaa310
+SHA256: 10716e368f1ebc459d6cebbefd512ed6fa8dcc394162fda3f31cd14c7cab7a44
+Section: 小玩具
+Description: 牛X的应用内购买破解器，已包含简体中文包。
+Author: Paisseon
+Name: Satella 中文版(rootless)
 
 Package: com.Ps666666.smartBattery2.ZH
 Version: 1.6
@@ -657,23 +657,6 @@ Name: 微信净化红包版 (rootless)
 
 Package: com.Ps666666.wechatnotiavatar
 Version: 1.2-5
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 2336
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Filename: ./debs/iphoneos-arm64/微信通知头像.deb
-Size: 522888
-MD5sum: cb5e8ae29837342045f26985725f4dd7
-SHA1: bc25fb110d8c00ff8e48aa1cafd57d9afa09b1dd
-SHA256: 2bf4377b1cdaeea273c22d35566ea6f8ac90da050c635dd797de153c7b363312
-Section: iphoneos-arm64
-Description: 使用iOS15+API显示微信应用程序的通知头像
-Author: Netskao
-Name: WeChatNotiAvatar (rootless)
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
-
-Package: com.Ps666666.wechatnotiavatar
-Version: 1.2-5
 Architecture: iphoneos-arm64e
 Maintainer: Netskao
 Installed-Size: 2336
@@ -690,24 +673,22 @@ Author: Netskao
 Name: WeChatNotiAvatar (RootHide)
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
 
-Package: com.Ps666666.zetsu
-Version: 1.5
+Package: com.Ps666666.wechatnotiavatar
+Version: 1.2-5
 Architecture: iphoneos-arm64
-Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
-Installed-Size: 11004
-Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
-Filename: ./debs/iphoneos-arm64/zetsu分屏器-Rootless.deb
-Size: 9657608
-MD5sum: d796ecdec1bc4601c9f8d27ad8978fa2
-SHA1: 9cbf14b50c3cb37c4de263d02ed89f1d2049ab43
-SHA256: b3570405568e8b5c8424af35716832a31d1a213e3d4b8041afdc3ce2e1ce7929
+Maintainer: Netskao
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64/微信通知头像.deb
+Size: 522888
+MD5sum: cb5e8ae29837342045f26985725f4dd7
+SHA1: bc25fb110d8c00ff8e48aa1cafd57d9afa09b1dd
+SHA256: 2bf4377b1cdaeea273c22d35566ea6f8ac90da050c635dd797de153c7b363312
 Section: iphoneos-arm64
-Description: Zetsu一款非常不错的分屏插件
-Tag: compatible_min::ios15.0
-Author: Dcsyhi <dcsyhi1998@gmail.com>
-Depiction: https://chariz.com/get/zetsu
-Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
-Name: Zetsu (rootless)
+Description: 使用iOS15+API显示微信应用程序的通知头像
+Author: Netskao
+Name: WeChatNotiAvatar (rootless)
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.wechatnotiavatar.json
 
 Package: com.Ps666666.zetsu
 Version: 1.5
@@ -728,6 +709,25 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Depiction: https://chariz.com/get/zetsu
 Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
 Name: Zetsu (RootHide)
+
+Package: com.Ps666666.zetsu
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 11004
+Depends: mobilesubstrate,firmware (>=15.0),preferenceloader,com.opa334.ccsupport
+Filename: ./debs/iphoneos-arm64/zetsu分屏器-Rootless.deb
+Size: 9657608
+MD5sum: d796ecdec1bc4601c9f8d27ad8978fa2
+SHA1: 9cbf14b50c3cb37c4de263d02ed89f1d2049ab43
+SHA256: b3570405568e8b5c8424af35716832a31d1a213e3d4b8041afdc3ce2e1ce7929
+Section: iphoneos-arm64
+Description: Zetsu一款非常不错的分屏插件
+Tag: compatible_min::ios15.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Depiction: https://chariz.com/get/zetsu
+Icon: https://img.chariz.cloud/icon/zetsu/icon@3x.png
+Name: Zetsu (rootless)
 
 Package: com.Ps666666.zyts
 Version: 0.0.1
@@ -1033,22 +1033,6 @@ Name: floatingView
 
 Package: com.ps666666.floating-view
 Version: 1.6.0-6
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 3360
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/iphoneos-arm64/com.ps666666.floating-view_1.6.0-6_iphoneos-arm64.deb
-Size: 662988
-MD5sum: 53a206ac2935ef72c77dc572b559221d
-SHA1: 48370916c09aac61948c66e68cb272542a6b5bbc
-SHA256: 72a3fbee8c6736c750f6739f400a442bca27ef203530d4c34397057126ebf297
-Section: iphoneos-arm64
-Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
-Author: be-huge
-Name: floatingView
-
-Package: com.ps666666.floating-view
-Version: 1.6.0-6
 Architecture: iphoneos-arm64e
 Maintainer: be-huge
 Installed-Size: 3360
@@ -1060,6 +1044,22 @@ MD5sum: bfe2c6578ff7507b1f27550841cee71a
 SHA1: 86f004fd110db0931e4e26b3fb2980b009cfd245
 SHA256: 497dd972775898ad5e4ce7c750d355f3a068f14022841086fd837a18fbaf782e
 Section: iphoneos-arm64e
+Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
+Author: be-huge
+Name: floatingView
+
+Package: com.ps666666.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3360
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64/com.ps666666.floating-view_1.6.0-6_iphoneos-arm64.deb
+Size: 662988
+MD5sum: 53a206ac2935ef72c77dc572b559221d
+SHA1: 48370916c09aac61948c66e68cb272542a6b5bbc
+SHA256: 72a3fbee8c6736c750f6739f400a442bca27ef203530d4c34397057126ebf297
+Section: iphoneos-arm64
 Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
 Author: be-huge
 Name: floatingView
