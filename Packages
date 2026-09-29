@@ -1081,6 +1081,24 @@ Author: Hoangdus & daodao
 Name: Speedster(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/speedster/js.json
 
+Package: com.ps666666.tako
+Version: 1.1.12
+Architecture: iphoneos-arm64e
+Maintainer: b4db1r3
+Installed-Size: 744
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/iphoneos-arm64e/com.ps666666.tako_1.1.12_iphoneos-arm64e.deb
+Size: 109848
+MD5sum: ce3609a563214b607e6270097b77a4b7
+SHA1: 20fbab7f8c9bccb675922920f585f7bfca3e28a3
+SHA256: 0968a38ca5f9470ee6af8240a1ef58f6ad55b7b55b5cd5dcbaa486d1dd141a88
+Section: arm64e
+Description: Notification priority hub tweak with iOS 17 and iOS 18 support.
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako (iOS 15-18)
+
 Package: com.ps666666.velvet2
 Version: 2.2
 Architecture: iphoneos-arm64
