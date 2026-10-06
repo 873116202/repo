@@ -1035,16 +1035,16 @@ Package: com.ps666666.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64e
 Maintainer: be-huge
-Installed-Size: 3360
+Installed-Size: 3404
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/iphoneos-arm64e/com.ps666666.floating-view_1.6.0-6_iphoneos-arm64e.deb
-Size: 663772
-MD5sum: bfe2c6578ff7507b1f27550841cee71a
-SHA1: 86f004fd110db0931e4e26b3fb2980b009cfd245
-SHA256: 497dd972775898ad5e4ce7c750d355f3a068f14022841086fd837a18fbaf782e
-Section: iphoneos-arm64e
-Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
+Size: 673148
+MD5sum: ec2e47ce66cb1048f7cf0d317170c317
+SHA1: 1f5abd40afdc4c28eeea184395e9b804a30e8afe
+SHA256: bedef35f8cf9ac26c2b096575d79bd04a85b53d88f2a0271a557f96fac06bda0
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
@@ -1063,6 +1063,23 @@ Section: iphoneos-arm64
 Description: 分屏，不必太复杂，一切从简即可。(作者已经公开免费了)
 Author: be-huge
 Name: floatingView
+
+Package: com.ps666666.floating-view-free
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.floating-view-free_1.6.0-6_iphoneos-arm64e.deb
+Size: 663828
+MD5sum: 0a26861c2071ca04ffe0b83a5a6ab3b0
+SHA1: 3398705a94054076fb5fa3130f9f71353c69aac9
+SHA256: 7e9b440f4c9c38e881dc0f67de93c66f2014077e9913c4bd0d7e9779b391a23c
+Section: Tweaks
+Description: 移除设备验证，免费使用，分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView Free
 
 Package: com.ps666666.speedster
 Version: 2.2.3
