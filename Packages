@@ -1081,6 +1081,23 @@ Description: 移除设备验证，免费使用，分屏，不必太复杂，一�
 Author: be-huge
 Name: floatingView Free
 
+Package: com.ps666666.floating-view1
+Version: 1.6.0-1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3136
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.floating-view1_1.6.0-1_iphoneos-arm64e 2.deb
+Size: 618612
+MD5sum: ccb406203214fc3e23e3b3bcf8ac785b
+SHA1: d05fc8d919b232546d88d35758ced06925bda2fc
+SHA256: 13761453357cd5688ac9b31b8cc6193b0c7c190f55fd1b3c9cab0c692b198f3a
+Section: Tweaks
+Description: 移除设备授权，此版本可以与外部插件（灵动岛插件）能直接调用直达通知，160-6版本则被移除了这个功能，特此打包这个版本，方便群友使用。
+Author: be-huge
+Name: floatingView(免授权)
+
 Package: com.ps666666.speedster
 Version: 2.2.3
 Architecture: iphoneos-arm64
