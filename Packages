@@ -1,3 +1,21 @@
+Package: cc.ps666666.lightshield
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Taj C (forcequit)
+Installed-Size: 200
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: preferenceloader, com.opa334.libsandy, firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64e/cc.ps666666.lightshield_1.0.0_iphoneos-arm64e.deb
+Size: 22676
+MD5sum: 153ae7185ba226ddb5c3409fb810643b
+SHA1: 9e760779c687666ee812b3231177aecc483860d8
+SHA256: 8311ae54657bf1d0742331584355828f63d474958cfe699474c47a0ac731e6f4
+Section: 系统
+Description: Lightweight Lockdown Mode alternative for WebKit.
+Author: Taj C (forcequit)
+Icon: https://raw.githubusercontent.com/forcequitOS/Lightshield/main/icon_medium.png
+Name: Lightshield
+
 Package: cn.octoforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64e
