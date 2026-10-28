@@ -1151,6 +1151,24 @@ Author: Xyaman & b4db1r3
 Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
 Name: Tako (iOS 15-18)
 
+Package: com.ps666666.tako
+Version: 1.1.14
+Architecture: iphoneos-arm64e
+Maintainer: b4db1r3
+Installed-Size: 780
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/iphoneos-arm64e/com.ps666666.tako_1.1.14_iphoneos-arm64e.deb
+Size: 111204
+MD5sum: 4ef86c5c16eba4f3be9ecaaf58e8471d
+SHA1: 7ffe001af5ca6001c4cda300d2800fc889870802
+SHA256: 3963f7ab6f9f09db230ea6f8fd20090c9e391ef86bcd1cdfeffeb357bf52ca1f
+Section: Tweaks
+Description: Notification priority hub tweak with iOS 17 and iOS 18 support.
+Author: Xyaman & b4db1r3
+Icon: https://repo.xyaman.xyz/depictions/tako/assets/icon.png
+Name: Tako (iOS 15-18)
+
 Package: com.ps666666.tako1
 Version: 3.5.2.1
 Architecture: iphoneos-arm64e
