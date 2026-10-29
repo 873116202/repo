@@ -61,14 +61,14 @@ Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
 Conflicts: com.squidforce.squidextender
 Filename: ./debs/iphoneos-arm64e/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
-Size: 4397700
-MD5sum: 95350e18a7df8f3cad443668ce920bef
-SHA1: ad0de47af8fc58154976d56ec23c4a52399e394e
-SHA256: 673d10675670830ff7d2104113a5342eb41bcfa9812ef6431d8d6ddc3081175d
+Size: 6854396
+MD5sum: c686ba7b05faabc89f52a5729c3ea6bc
+SHA1: 31f604aa747b376fec8989c980a9f87f1edc1da2
+SHA256: d4fa53d40565ee0c7a78a6e8477fdcca875b58328341e9f12852f40ad8c9d873
 Section: Tweaks
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
 Author: SquidForce, Backup
-Name: SquidExtender(RootHide)
+Name: SquidExtender(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 
 Package: com.82flex.touchvis
@@ -148,6 +148,22 @@ Size: 4136
 MD5sum: 93c8f55b3eb5158d347a711c5792f4a7
 SHA1: 1b2b077950d8c4ee24c4070855795173bd34e916
 SHA256: d611e9fdde7a2501472ac748b75e6ad4b324bd365b2376b1c1be06ed2995567e
+Section: 小玩具
+Description: 让角标动起来
+Author: Phuc Do
+Name: Badge Breathing (rootless)
+
+Package: com.Ps666666.badgebreathing
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Phuc Do
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.badgebreathing_0.0.1_iphoneos-arm64e.deb
+Size: 5518
+MD5sum: 1414db34d31e616b99e0bfe5087f3514
+SHA1: e9d617eb91ed8066736222b170fb9fc2038c8e29
+SHA256: c02dd212f8662621d38c27765486772c29d9e3b698a363b74ce31ac78437c6ce
 Section: 小玩具
 Description: 让角标动起来
 Author: Phuc Do
@@ -918,6 +934,23 @@ Description: 真正的iOS系统清理和管理实用程序，默认简体中文�
 Author: Ivano Bilenchi
 Name: iCleaner Pro(rootless)
 
+Package: com.dao.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2758796
+MD5sum: 22546e06dc7b2b9c6096e4f7f9fdc30d
+SHA1: 6c778b032446e3e655c7aadc1f9eaddc38e71135
+SHA256: bbcf4c520efb60577f704fa7b14e729423bda9f9f5a7f7aafd254c2a0e38127f
+Section: 嗨-工具
+Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
+Author: Ivano Bilenchi
+Name: iCleaner Pro(rootless)
+
 Package: com.exile90.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
@@ -1080,14 +1113,33 @@ Installed-Size: 2952
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
 Filename: ./debs/iphoneos-arm64e/com.mtac.lynxtwo_2.5.4_iphoneos-arm64e.deb
-Size: 702712
-MD5sum: af496e9b91429b6cff697cdb62fdb1f5
-SHA1: 62f1eaaa67d28021fabdc5969cce679f52e60b06
-SHA256: cdbdc85deeb0fcc642b763809e3f36db3a7709c6ebbef13a952a976174d22f13
-Section: iphoneos-arm64e
+Size: 1717142
+MD5sum: 534a55a8029be9b49dda03be4bf09f6e
+SHA1: 2bf6b43cacc2b64ec13d651e21d4b3640f69c67e
+SHA256: a54fad92b709c1bd9c27b5d058bf7e9554ad8a10b2fb3dea22fbdcb16aaa0002
+Section: Tweaks
 Description: Ultimate iDevice Customization for iOS 14, 15 & 16
 Author: MTAC
-Name: Lynx 2 (RootHide)
+Name: Lynx 2
+
+Package: com.mtac.vitreux
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: MTAC
+Installed-Size: 7028
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64e/com.mtac.vitreux_1.3_iphoneos-arm64e.deb
+Size: 12214512
+MD5sum: c093d23b2df04aade46144cdb20ca577
+SHA1: 8d3f4e3d2d178175abbb451fbd939feb4d8f1860
+SHA256: 733709ac48668c4a540d1600fadc15627823690e1ccbb581253ad6e815ccf48f
+Section: Tweaks
+Description: A recreation of Liquid Glass
+Author: MTAC
+Icon: https://mtac.app/repo/assets/com.mtac.vitreux/icon-rounded.png
+Name: Vitreux
+Sileodepiction: https://mtac.app/repo/depiction/native/com.mtac.vitreux.json
 
 Package: com.netskao.dumpdecrypter
 Version: 1.5-1
