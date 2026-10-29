@@ -438,6 +438,22 @@ Author: Phuc Do
 Icon: https://dobabaophuc1706.github.io/repo/package/MaskBlurBorder/icon.png
 Name: 玻璃遮罩 (rootless)
 
+Package: com.Ps666666.maskblurborder
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Phuc Do
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.maskblurborder_1.0_iphoneos-arm64e.deb
+Size: 75256
+MD5sum: 373706af91f895edfdb818957ee0a143
+SHA1: 8c4557c73dd48596387cfb8da30a7b9f9f445d2e
+SHA256: 559b65fe5b4d7325bdc4d978c5746a560b46891fde4ebdbbd0f86dd4eb3484c5
+Section: 小玩具
+Description: 玻璃遮罩个人喜欢的需要snowboard加载
+Author: Phuc Do
+Icon: https://dobabaophuc1706.github.io/repo/package/MaskBlurBorder/icon.png
+Name: 玻璃遮罩 (rootless)
+
 Package: com.Ps666666.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -866,6 +882,82 @@ Description: 微信全局右滑手势，弥补官方只能屏幕侧边返回上�
 Author: be-huge
 Name: WeChatPopVC(RootHide)
 
+Package: com.ginsu.dodo
+Version: 5.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Ginsu
+Installed-Size: 1904
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: ./debs/iphoneos-arm64e/com.ginsu.dodo_5.0.3_iphoneos-arm64e.deb
+Size: 491870
+MD5sum: 538b4636d8c5e7135c96a824892067e0
+SHA1: 041a6a5f5793bd3a7edfdae8a3473b05fbe13582
+SHA256: 3a9b05e8601f8d426d53e4ca7f50ea035b15dda85f731b99136af3946a2a0346
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://noahlittle.net/#/depiction/com.ginsu.dodo
+Icon: https://noahlittle.net/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://noahlittle.net/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.gscore
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: Ginsu
+Installed-Size: 1180
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: ./debs/iphoneos-arm64e/com.ginsu.gscore_2.0.4_iphoneos-arm64e.deb
+Size: 284096
+MD5sum: 04310fc37e2e94adb83350afd905446e
+SHA1: a56e5708ecbee4ae3a27dead1b7cefae7d2698a6
+SHA256: 1e90da64b8fa97858c2d648b0f3ad856da8268eea7f2a2bb78c6f9c2a166d643
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://noahlittle.net/#/depiction/com.ginsu.gscore
+Icon: https://noahlittle.net/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://noahlittle.net/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Ginsu
+Installed-Size: 1216
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/iphoneos-arm64e/com.ginsu.gsweather_1.1.1_iphoneos-arm64e.deb
+Size: 167060
+MD5sum: cee7c2c1d9a76eb74ae49ce851e5603c
+SHA1: c1781373e74974b2dd2ec98982b1a95a5d00db08
+SHA256: 821dc767bb82e603466ce7508ab2989674a3f53155ae9f502a03297234d8ddc9
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://noahlittle.net/#/depiction/com.ginsu.gsweather
+Icon: https://noahlittle.net/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather (Rootless)
+Sileodepiction: https://noahlittle.net/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.hk.ct5.cn.rl
+Version: 5.0
+Architecture: iphoneos-arm64e
+Maintainer: 妖刀
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.hk.ct5.cn.rl_5.0_iphoneos-arm64e.deb
+Size: 3132
+MD5sum: 39423d87c8b211fda0a588950f01c353
+SHA1: f37d54fcf5b65977c68a0804dae5078828395e0c
+SHA256: 8a38a3c989bb4d358c357e01544f52017ae60ab3a841abb00cd5c75d1d1854bc
+Section: 嗨-汉化
+Description: CrackTool5 中文修复包(rootless)，如果插件更新了，需要再次安装本中文包。
+Author: 妖刀
+Name: CrackTool5 中文修复包(rootless)
+
 Package: com.jontelang.snapper3
 Version: 1.2.1
 Architecture: iphoneos-arm64e
@@ -1220,6 +1312,23 @@ Description: 完全可自由定制的通知横幅变色，根据开源编译/优
 Author: NoisyFlake
 Name: Velvet 2 中文版(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/velvet2/js.json
+
+Package: com.spark.snowboardapplication
+Version: 1.1.0~Beta4-rootless
+Architecture: iphoneos-arm64e
+Maintainer: Spark
+Installed-Size: 992
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: com.spark.snowboard
+Filename: ./debs/iphoneos-arm64e/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e.deb
+Size: 629548
+MD5sum: 08ef89aaa5612754cdcea91b16116d90
+SHA1: 7d78582e765dd101f8d327d18060146f7be9129a
+SHA256: a3148e27a5d970af63b01d59e599afc975428c49fdb4ee1a1375d6af36bd452c
+Section: Utilities
+Description: An awesome application!
+Author: Spark
+Name: SnowBoard
 
 Package: com.sutuplus.releasefugu15
 Version: 5.9.8-2-1
