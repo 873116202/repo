@@ -929,11 +929,11 @@ Maintainer: Ivano Bilenchi
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
-Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-1.deb
-Size: 2758770
-MD5sum: 9c2468e1606e7b36fc0690d7ce500e0d
-SHA1: bec4273fb6d3a850c84b3f85f4f717bca995b6f8
-SHA256: ca3e5c8d2c8f6c77c4f3dd0dab6c77329839c9da8d20694a06ab7619f278e46d
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2758796
+MD5sum: 22546e06dc7b2b9c6096e4f7f9fdc30d
+SHA1: 6c778b032446e3e655c7aadc1f9eaddc38e71135
+SHA256: bbcf4c520efb60577f704fa7b14e729423bda9f9f5a7f7aafd254c2a0e38127f
 Section: 嗨-工具
 Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
 Author: Ivano Bilenchi
@@ -946,11 +946,11 @@ Maintainer: Ivano Bilenchi
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
-Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e.deb
-Size: 2758796
-MD5sum: 22546e06dc7b2b9c6096e4f7f9fdc30d
-SHA1: 6c778b032446e3e655c7aadc1f9eaddc38e71135
-SHA256: bbcf4c520efb60577f704fa7b14e729423bda9f9f5a7f7aafd254c2a0e38127f
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-1.deb
+Size: 2758770
+MD5sum: 9c2468e1606e7b36fc0690d7ce500e0d
+SHA1: bec4273fb6d3a850c84b3f85f4f717bca995b6f8
+SHA256: ca3e5c8d2c8f6c77c4f3dd0dab6c77329839c9da8d20694a06ab7619f278e46d
 Section: 嗨-工具
 Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
 Author: Ivano Bilenchi
@@ -1163,6 +1163,23 @@ Description: Decrypt iOS Apps and Plugins, Supports iOS15+, Only Tested iOS16.1
 Author: Netskao
 Name: DumpDecrypter (RootHide)
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.dumpdecrypter.json
+
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.netskao.storeswitchaccounts_1.1-4_iphoneos-arm64.deb
+Size: 102504
+MD5sum: 0d761ac7061eff143e3e2148b9487347
+SHA1: 637ba927e0d17219cf3da78c9184109198072b0d
+SHA256: 66428a691d41bb3818e37881e8517f4f13f4ed1ccc4840e33971ce0b146570dc
+Section: Netskao-Tweaks
+Description: Conveniently switch between logged-in accounts, long press the desktop AppStore icon to switch
+Author: Netskao
+Name: StoreSwitchAccounts
+Sileodepiction: https://jailrepo.initnil.com/api?Package=com.netskao.storeswitchaccounts
 
 Package: com.opa334.crane
 Version: 1.3.16-4
