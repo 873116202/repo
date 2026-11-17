@@ -1298,9 +1298,9 @@ Maintainer: P神
 Depends: mobilesubstrate
 Filename: ./debs/iphoneos-arm64e/com.ps666666.dynamicseth.zh_1.0.2_iphoneos-arm64e.deb
 Size: 3836
-MD5sum: c4f08c65fb175d482957d9da9aa3cad8
-SHA1: 801bafaf5bb49015a6b69abbaf66a5041f452000
-SHA256: 0aefdbc344616495d6bd3118d67ce38efd79467ae888d4758d16507c1d67e82f
+MD5sum: 217c8b3b718fcf839f74adb665ccd36f
+SHA1: 2683a11a52dde0fdd1e63117a2d989bed0892400
+SHA256: c460d5c9bc3f294209f3d6c7252e48f072e56bb29c9d4ab0f839a24e5c6776b0
 Section: 个人汉化
 Description: Dynamicseth 简体中文包(RootHide)
 Author: P神
