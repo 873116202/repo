@@ -1291,6 +1291,21 @@ Author: CoolStar & Lizynz & sini921 & daodao
 Name: ClassicFolders 3(rootless)
 Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
 
+Package: com.ps666666.dynamicseth.zh
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: P神
+Depends: mobilesubstrate
+Filename: ./debs/iphoneos-arm64e/com.ps666666.dynamicseth.zh_1.0.2_iphoneos-arm64e (1).deb
+Size: 3820
+MD5sum: 9fe3272891f49380ad9864a875c31148
+SHA1: a78480dd706d3882501289d80d03eabb3667d0db
+SHA256: 6d30f7f865916c0bb9696bd54921d3a299029b20c4ac24de6e1f9244975e1a63
+Section: 个人汉化
+Description: Dynamicseth 简体中文包(RootHide)
+Author: P神
+Name: Dynamicseth 简体中文包(RootHide)
+
 Package: com.ps666666.floating-view
 Version: 1.6.0-1
 Architecture: iphoneos-arm64
