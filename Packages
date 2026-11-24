@@ -929,11 +929,11 @@ Maintainer: Ivano Bilenchi
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
-Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e.deb
-Size: 2758796
-MD5sum: 22546e06dc7b2b9c6096e4f7f9fdc30d
-SHA1: 6c778b032446e3e655c7aadc1f9eaddc38e71135
-SHA256: bbcf4c520efb60577f704fa7b14e729423bda9f9f5a7f7aafd254c2a0e38127f
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-1.deb
+Size: 2758770
+MD5sum: 9c2468e1606e7b36fc0690d7ce500e0d
+SHA1: bec4273fb6d3a850c84b3f85f4f717bca995b6f8
+SHA256: ca3e5c8d2c8f6c77c4f3dd0dab6c77329839c9da8d20694a06ab7619f278e46d
 Section: 嗨-工具
 Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
 Author: Ivano Bilenchi
@@ -946,11 +946,11 @@ Maintainer: Ivano Bilenchi
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
-Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e-1.deb
-Size: 2758770
-MD5sum: 9c2468e1606e7b36fc0690d7ce500e0d
-SHA1: bec4273fb6d3a850c84b3f85f4f717bca995b6f8
-SHA256: ca3e5c8d2c8f6c77c4f3dd0dab6c77329839c9da8d20694a06ab7619f278e46d
+Filename: ./debs/iphoneos-arm64e/com.dao.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2758796
+MD5sum: 22546e06dc7b2b9c6096e4f7f9fdc30d
+SHA1: 6c778b032446e3e655c7aadc1f9eaddc38e71135
+SHA256: bbcf4c520efb60577f704fa7b14e729423bda9f9f5a7f7aafd254c2a0e38127f
 Section: 嗨-工具
 Description: 真正的iOS系统清理和管理实用程序，默认简体中文，破解版。
 Author: Ivano Bilenchi
@@ -1389,6 +1389,26 @@ Description: 移除设备授权，此版本可以与外部插件（灵动岛插�
 Author: be-huge
 Name: floatingView(免授权)
 
+Package: com.ps666666.ntfy
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: witu <secrettuta@tuta.io>
+Installed-Size: 539
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.ntfy_1.0_iphoneos-arm64e.deb
+Size: 77076
+MD5sum: 62b81a4c2773d2e638896989d1cca7a6
+SHA1: 381a92ec8a0e1bd6bc5a51b383646a6d344ed29c
+SHA256: 5da139299358ba94f9ea411c7ff4b5429f666d751029067bc88e57df856db2bf
+Section: Tweaks
+Description: Minimal, customisable notification dots for Home Screen icons and folders.
+Tag: compatible_min::ios15.0
+Author: witu <secrettuta@tuta.io>
+Depiction: https://chariz.com/get/ntfy
+Icon: https://img.chariz.cloud/icon/ntfy/icon@3x.png
+Name: ntfy
+
 Package: com.ps666666.speedster
 Version: 2.2.3
 Architecture: iphoneos-arm64
@@ -1589,11 +1609,11 @@ Maintainer: Spark
 Installed-Size: 992
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-arm64e/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e-1.deb
-Size: 629534
-MD5sum: 518178ff9b6d73c13907e15abbac3bc6
-SHA1: 83cee365b78b0af193d78a6a4f79651cc134dfc5
-SHA256: c98d9dd275d1f77a2fb62563916f7f45eb025a30f6d311a21fa338e780db725d
+Filename: ./debs/iphoneos-arm64e/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e.deb
+Size: 629548
+MD5sum: 08ef89aaa5612754cdcea91b16116d90
+SHA1: 7d78582e765dd101f8d327d18060146f7be9129a
+SHA256: a3148e27a5d970af63b01d59e599afc975428c49fdb4ee1a1375d6af36bd452c
 Section: Utilities
 Description: An awesome application!
 Author: Spark
@@ -1606,11 +1626,11 @@ Maintainer: Spark
 Installed-Size: 992
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: com.spark.snowboard
-Filename: ./debs/iphoneos-arm64e/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e.deb
-Size: 629548
-MD5sum: 08ef89aaa5612754cdcea91b16116d90
-SHA1: 7d78582e765dd101f8d327d18060146f7be9129a
-SHA256: a3148e27a5d970af63b01d59e599afc975428c49fdb4ee1a1375d6af36bd452c
+Filename: ./debs/iphoneos-arm64e/com.spark.snowboardapplication_1.1.0~Beta4-rootless_iphoneos-arm64e-1.deb
+Size: 629534
+MD5sum: 518178ff9b6d73c13907e15abbac3bc6
+SHA1: 83cee365b78b0af193d78a6a4f79651cc134dfc5
+SHA256: c98d9dd275d1f77a2fb62563916f7f45eb025a30f6d311a21fa338e780db725d
 Section: Utilities
 Description: An awesome application!
 Author: Spark
