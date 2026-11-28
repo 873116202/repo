@@ -1389,6 +1389,42 @@ Description: 移除设备授权，此版本可以与外部插件（灵动岛插�
 Author: be-huge
 Name: floatingView(免授权)
 
+Package: com.ps666666.hammerit
+Version: 1.5.0
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 2288
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, firmware (>= 14.0)
+Filename: ./debs/iphoneos-arm64e/com.ps666666.hammerit_1.5.0_iphoneos-arm64e.deb
+Size: 435400
+MD5sum: 1f4f1d4ae54832189b1d334562b8a276
+SHA1: 71044ae0b381facf71b6001248b8f20c5ac3fb14
+SHA256: 08a0fd0882a6eade4a4c02a80520479458c12f7e4049eee46a66da52c37cb38b
+Section: iphoneos-arm64e
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
+
+Package: com.ps666666.liquidass
+Version: 0.1.1b
+Architecture: iphoneos-arm64e
+Maintainer: dylv
+Installed-Size: 8560
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), firmware (<< 26.0), preferenceloader
+Conflicts: dylv.blurless
+Replaces: dylv.blurless
+Filename: ./debs/iphoneos-arm64e/com.ps666666.liquidass_0.1.1b_iphoneos-arm64e.deb
+Size: 3694364
+MD5sum: d6a7df979dbacc7f5fe93e636f4fc0b8
+SHA1: fe5be0b74c9277cb104d44fe20c2ef6066b57f91
+SHA256: 774233e9d21c034d7c226b7ba71e8d243e8f661d80dcc5df4c968c9a394fd159
+Section: iphoneos-arm64e
+Description: next level diarrhea
+Author: dylv
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Name: Liquid (Gl)ass
+
 Package: com.ps666666.ntfy
 Version: 1.0
 Architecture: iphoneos-arm64e
